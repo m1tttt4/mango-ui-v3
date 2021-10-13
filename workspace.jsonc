@@ -7,7 +7,7 @@
     "defaultScope": "m4tt4ew.soce",
     "resolveModules": {
       "aliases": {
-        "~": "."
+        "~/*": "./*"
       }
     }
   },
