@@ -1,10 +1,10 @@
 import { PerpMarket } from '@blockworks-foundation/mango-client'
 import { useState } from 'react'
-import useMangoGroupConfig from '../../hooks/useMangoGroupConfig'
-import useMangoStore from '../../stores/useMangoStore'
-import Chart from '../Chart'
+import useMangoGroupConfig from '../../../hooks/useMangoGroupConfig'
+import useMangoStore from '../../../stores/useMangoStore'
+import Chart from '../../Chart'
 import BN from 'bn.js'
-import { tokenPrecision } from '../../utils'
+import { tokenPrecision } from '../../../utils'
 
 const icons = {
   'BTC-PERP': '/assets/icons/btc.svg',

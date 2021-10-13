@@ -8,14 +8,14 @@ import {
   HeartIcon,
 } from '@heroicons/react/outline'
 import { nativeToUi, ZERO_BN } from '@blockworks-foundation/mango-client'
-import useMangoStore, { MNGO_INDEX } from '../../stores/useMangoStore'
-import { formatUsdValue } from '../../utils'
-import { notify } from '../../utils/notifications'
-import { LinkButton } from '../Button'
-import BalancesTable from '../BalancesTable'
-import PositionsTable from '../PerpPositionsTable'
-import Switch from '../Switch'
-import useLocalStorageState from '../../hooks/useLocalStorageState'
+import useMangoStore, { MNGO_INDEX } from '../../../stores/useMangoStore'
+import { formatUsdValue } from '../../../utils'
+import { notify } from '../../../utils/notifications'
+import { LinkButton } from '../../Button'
+import BalancesTable from '../../BalancesTable'
+import PositionsTable from '../../PerpPositionsTable'
+import Switch from '../../Switch'
+import useLocalStorageState from '../../../hooks/useLocalStorageState'
 import { ExclamationIcon } from '@heroicons/react/solid'
 
 const div = styled.div`

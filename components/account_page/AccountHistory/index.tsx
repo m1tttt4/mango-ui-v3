@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import TradeHistoryTable from '../TradeHistoryTable'
+import TradeHistoryTable from '../../TradeHistoryTable'
 
 // const historyViews = ['Trades', 'Deposits', 'Withdrawals', 'Liquidations']
 

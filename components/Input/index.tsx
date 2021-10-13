@@ -37,7 +37,7 @@ const Input = ({
       ) : null}
       <input
         type={type}
-        value={value}
+        value={value ? value : 0}
         onChange={onChange}
         className={`${className} bg-th-bkg-1 pb-px px-2 flex-1 rounded-md h-10 text-th-fgd-1 w-full
           border ${
