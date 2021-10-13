@@ -23,7 +23,7 @@ import {
 } from '@blockworks-foundation/mango-client'
 import { AccountInfo, Commitment, Connection, PublicKey } from '@solana/web3.js'
 import { EndpointInfo, WalletAdapter } from '~/@types/types'
-import { isDefined, zipDict } from '~/utils'
+import { isDefined, zipDict } from '~/utils/formatters'
 import { notify } from '~/utils/notifications'
 import { LAST_ACCOUNT_KEY } from '~/components/AccountsModal'
 import {

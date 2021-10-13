@@ -4,7 +4,7 @@ import { PerpMarket, ZERO_BN } from '@blockworks-foundation/mango-client'
 import Button, { LinkButton } from '~/components/Button'
 import { notify } from '~/utils/notifications'
 import Loading from '~/components/Loading'
-import { sleep } from '~/utils'
+import { sleep } from '~/utils/formatters'
 import Modal from '~/components/Modal'
 
 interface MarketCloseModalProps {

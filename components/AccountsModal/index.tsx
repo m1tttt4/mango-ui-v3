@@ -9,7 +9,7 @@ import {
   MangoGroup,
   // ZERO_I80F48,
 } from '@blockworks-foundation/mango-client'
-import { abbreviateAddress, formatUsdValue } from '~/utils'
+import { abbreviateAddress, formatUsdValue } from '~/utils/formatters'
 import useLocalStorageState from '~/hooks/useLocalStorageState'
 import Modal from '~/components/Modal'
 import { ElementTitle } from '~/components/styles'

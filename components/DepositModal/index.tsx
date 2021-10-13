@@ -12,7 +12,7 @@ import Slider from '~/components/Slider'
 import InlineNotification from '~/components/InlineNotification'
 import { deposit } from '~/utils/mango'
 import { notify } from '~/utils/notifications'
-import { sleep } from '~/utils'
+import { sleep } from '~/utils/formatters'
 
 interface DepositModalProps {
   onClose: () => void

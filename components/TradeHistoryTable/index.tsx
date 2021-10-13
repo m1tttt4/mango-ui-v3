@@ -10,7 +10,7 @@ import { useViewport } from '~/hooks/useViewport'
 import { breakpoints } from '~/components/TradePageGrid'
 import { Table, Td, Th, TrBody, TrHead } from '~/components/TableElements'
 import { ExpandableRow } from '~/components/TableElements'
-import { formatUsdValue } from '~/utils'
+import { formatUsdValue } from '~/utils/formatters'
 
 const TradeHistoryTable = ({ numTrades }: { numTrades?: number }) => {
   const { asPath } = useRouter()

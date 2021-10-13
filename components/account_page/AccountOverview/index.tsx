@@ -9,7 +9,7 @@ import {
 } from '@heroicons/react/outline'
 import { nativeToUi, ZERO_BN } from '@blockworks-foundation/mango-client'
 import useMangoStore, { MNGO_INDEX } from '~/stores/useMangoStore'
-import { formatUsdValue } from '~/utils'
+import { formatUsdValue } from '~/utils/formatters'
 import { notify } from '~/utils/notifications'
 import { LinkButton } from '~/components/Button'
 import BalancesTable from '~/components/BalancesTable'

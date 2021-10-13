@@ -9,7 +9,7 @@ import {
 import React, { useCallback, useState } from 'react'
 import { ExclamationIcon, HeartIcon } from '@heroicons/react/solid'
 import useMangoStore, { MNGO_INDEX } from '~/stores/useMangoStore'
-import { formatUsdValue, usdFormatter } from '~/utils'
+import { formatUsdValue, usdFormatter } from '~/utils/formatters'
 import { notify } from '~/utils/notifications'
 import { LinkButton } from '~/components/Button'
 import { ElementTitle } from '~/components/styles'

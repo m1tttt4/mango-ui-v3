@@ -7,7 +7,11 @@ import Input from '~/components/Input'
 import AccountSelect from '~/components/AccountSelect'
 import { ElementTitle } from '~/components/styles'
 import useMangoStore from '~/stores/useMangoStore'
-import { getSymbolForTokenMintAddress, trimDecimals, sleep } from '~/utils'
+import {
+  getSymbolForTokenMintAddress,
+  trimDecimals,
+  sleep,
+} from '~/utils/formatters'
 import Loading from '~/components/Loading'
 import Button from '~/components/Button'
 import Slider from '~/components/Slider'

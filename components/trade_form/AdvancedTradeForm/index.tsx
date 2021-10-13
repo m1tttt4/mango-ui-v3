@@ -8,8 +8,8 @@ import {
   PerpMarket,
 } from '@blockworks-foundation/mango-client'
 import { notify } from '~/utils/notifications'
-import { calculateTradePrice, getDecimalCount } from '~/utils'
-import { floorToDecimal } from '~/utils'
+import { calculateTradePrice, getDecimalCount } from '~/utils/formatters'
+import { floorToDecimal } from '~/utils/formatters'
 import useMangoStore, { Orderbook } from '~/stores/useMangoStore'
 import Button from '~/components/Button'
 import TradeType from '~/components/trade_form/TradeType'

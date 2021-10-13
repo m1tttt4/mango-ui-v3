@@ -1,5 +1,5 @@
 import useFees from '~/hooks/useFees'
-import { percentFormat } from '~/utils'
+import { percentFormat } from '~/utils/formatters'
 
 export default function MarketFee() {
   const { takerFee, makerFee } = useFees()
