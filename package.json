@@ -16,7 +16,7 @@
   "bit": {
     "resolveModules": {
       "aliases": {
-          "~": "."
+        "~": "."
       }
     }
   },

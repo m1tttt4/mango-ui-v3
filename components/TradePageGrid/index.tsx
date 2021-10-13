@@ -3,9 +3,12 @@ import { Responsive, WidthProvider } from 'react-grid-layout'
 import { round, max } from 'lodash'
 import MobileTradePage from '~/components/mobile/MobileTradePage'
 
-const TVChartContainer = dynamic(() => import('~/components/TradingView/index'), {
-  ssr: false,
-})
+const TVChartContainer = dynamic(
+  () => import('~/components/TradingView/index'),
+  {
+    ssr: false,
+  }
+)
 import { useEffect, useState } from 'react'
 import FloatingElement from '~/components/FloatingElement'
 import Orderbook from '~/components/Orderbook'

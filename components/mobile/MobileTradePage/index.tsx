@@ -16,9 +16,12 @@ import RecentMarketTrades from '~/components/RecentMarketTrades'
 import FloatingElement from '~/components/FloatingElement'
 import Swipeable from '~/components/mobile/Swipeable'
 
-const TVChartContainer = dynamic(() => import('~/components/TradingView/index'), {
-  ssr: false,
-})
+const TVChartContainer = dynamic(
+  () => import('~/components/TradingView/index'),
+  {
+    ssr: false,
+  }
+)
 
 const MobileTradePage = () => {
   const [viewIndex, setViewIndex] = useState(0)

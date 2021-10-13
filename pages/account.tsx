@@ -7,7 +7,7 @@ import {
   PencilIcon,
 } from '@heroicons/react/outline'
 import useMangoStore from '~/stores/useMangoStore'
-import { copyToClipboard } from '~/utils'
+import { copyToClipboard } from '~/utils/formatters'
 import PageBodyContainer from '~/components/PageBodyContainer'
 import TopBar from '~/components/TopBar'
 import AccountOrders from '~/components/account_page/AccountOrders'
