@@ -1,30 +1,30 @@
 import React, { useRef, useEffect, useState } from 'react'
 import styled from '@emotion/styled'
 import Big from 'big.js'
-import useInterval from '../../hooks/useInterval'
-import usePrevious from '../../hooks/usePrevious'
-import { isEqual, getDecimalCount, usdFormatter } from '../../utils/'
+import useInterval from '~/hooks/useInterval'
+import usePrevious from '~/hooks/usePrevious'
+import { isEqual, getDecimalCount, usdFormatter } from '~/utils/'
 import {
   ArrowUpIcon,
   ArrowDownIcon,
   SwitchHorizontalIcon,
 } from '@heroicons/react/solid'
-import { CumulativeSizeIcon, StepSizeIcon } from '../icons'
-import useMarkPrice from '../../hooks/useMarkPrice'
-import { ElementTitle } from '../styles'
-import useMangoStore from '../../stores/useMangoStore'
-import Tooltip from '../Tooltip'
-import GroupSize from '../GroupSize'
-import { useOpenOrders } from '../../hooks/useOpenOrders'
-import { useViewport } from '../../hooks/useViewport'
-import { breakpoints } from '../TradePageGrid'
+import { CumulativeSizeIcon, StepSizeIcon } from '~/components/icons'
+import useMarkPrice from '~/hooks/useMarkPrice'
+import { ElementTitle } from '~/components/styles'
+import useMangoStore from '~/stores/useMangoStore'
+import Tooltip from '~/components/Tooltip'
+import GroupSize from '~/components/GroupSize'
+import { useOpenOrders } from '~/hooks/useOpenOrders'
+import { useViewport } from '~/hooks/useViewport'
+import { breakpoints } from '~/components/TradePageGrid'
 import {
   FlipCard,
   FlipCardBack,
   FlipCardFront,
   FlipCardInner,
   StyledFloatingElement,
-} from '../FlipCard'
+} from '~/components/FlipCard'
 
 const Line = styled.div<any>`
   text-align: ${(props) => (props.invert ? 'left' : 'right')};

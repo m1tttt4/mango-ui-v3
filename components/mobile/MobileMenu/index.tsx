@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
-import MenuItem from '../MenuItem'
-import ConnectWalletButton from '../ConnectWalletButton'
-import { IconButton } from '../Button'
+import MenuItem from '~/components/MenuItem'
+import ConnectWalletButton from '~/components/ConnectWalletButton'
+import { IconButton } from '~/components/Button'
 
 const MobileMenu = () => {
   const [showMenu, setShowMenu] = useState(false)

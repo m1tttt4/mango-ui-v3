@@ -1,7 +1,7 @@
 import React from 'react'
-import Modal from '../Modal'
-import Button from '../Button'
-import useLocalStorageState from '../../hooks/useLocalStorageState'
+import Modal from '~/components/Modal'
+import Button from '~/components/Button'
+import useLocalStorageState from '~/hooks/useLocalStorageState'
 
 export const ALPHA_MODAL_KEY = 'mangoAlphaAccepted-3.06'
 

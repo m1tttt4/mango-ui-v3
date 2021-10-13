@@ -1,17 +1,17 @@
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
-import useMangoGroupConfig from '../../hooks/useMangoGroupConfig'
-import useMangoStore from '../../stores/useMangoStore'
+import useMangoGroupConfig from '~/hooks/useMangoGroupConfig'
+import useMangoStore from '~/stores/useMangoStore'
 import {
   getMarketByBaseSymbolAndKind,
   getMarketIndexBySymbol,
 } from '@blockworks-foundation/mango-client'
-import TopBar from '../../components/TopBar'
-import TradePageGrid from '../../components/TradePageGrid'
-import MarketSelect from '../../components/MarketSelect'
-import useLocalStorageState from '../../hooks/useLocalStorageState'
-import AlphaModal, { ALPHA_MODAL_KEY } from '../../components/AlphaModal'
-import { PageBodyWrapper } from '../../components/styles'
+import TopBar from '~/components/TopBar'
+import TradePageGrid from '~/components/TradePageGrid'
+import MarketSelect from '~/components/MarketSelect'
+import useLocalStorageState from '~/hooks/useLocalStorageState'
+import AlphaModal, { ALPHA_MODAL_KEY } from '~/components/AlphaModal'
+import { PageBodyWrapper } from '~/components/styles'
 
 const PerpMarket = () => {
   const [alphaAccepted] = useLocalStorageState(ALPHA_MODAL_KEY, false)

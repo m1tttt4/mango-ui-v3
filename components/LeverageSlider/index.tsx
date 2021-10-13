@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import Slider from 'rc-slider'
 import 'rc-slider/assets/index.css'
-import useMangoStore from '../../stores/useMangoStore'
+import useMangoStore from '~/stores/useMangoStore'
 import {
   getMarketIndexBySymbol,
   getWeights,

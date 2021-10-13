@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/solid'
-import useMangoGroupConfig from '../../hooks/useMangoGroupConfig'
-import Modal from '../Modal'
-import { ElementTitle } from '../styles'
-import Button from '../Button'
-import Input from '../Input'
-import useMangoStore from '../../stores/useMangoStore'
-import useLocalStorageState from '../../hooks/useLocalStorageState'
-import Select from '../Select'
+import useMangoGroupConfig from '~/hooks/useMangoGroupConfig'
+import Modal from '~/components/Modal'
+import { ElementTitle } from '~/components/styles'
+import Button from '~/components/Button'
+import Input from '~/components/Input'
+import useMangoStore from '~/stores/useMangoStore'
+import useLocalStorageState from '~/hooks/useLocalStorageState'
+import Select from '~/components/Select'
 
 const NODE_URLS = [
   { label: 'Mango Node', value: 'https://mango.rpcpool.com' },

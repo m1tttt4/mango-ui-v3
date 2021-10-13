@@ -5,8 +5,8 @@ import {
   InformationCircleIcon,
   XCircleIcon,
 } from '@heroicons/react/outline'
-import useMangoStore from '../../stores/useMangoStore'
-import { notify } from '../../utils/notifications'
+import useMangoStore from '~/stores/useMangoStore'
+import { notify } from '~/utils/notifications'
 
 const notEnoughSoLMessage = 'You may not have enough SOL for this transaction'
 

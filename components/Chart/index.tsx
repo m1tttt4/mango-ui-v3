@@ -3,7 +3,7 @@ import { useTheme } from 'next-themes'
 import dayjs from 'dayjs'
 import { AreaChart, Area, XAxis, YAxis, Tooltip, BarChart, Bar } from 'recharts'
 import useDimensions from 'react-cool-dimensions'
-import { numberCompactFormatter } from '../../utils'
+import { numberCompactFormatter } from '~/utils'
 
 interface ChartProps {
   data: any

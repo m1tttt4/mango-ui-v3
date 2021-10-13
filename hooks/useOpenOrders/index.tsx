@@ -9,8 +9,8 @@ import {
 } from '@blockworks-foundation/mango-client'
 import { Market, Orderbook } from '@project-serum/serum'
 import { Order } from '@project-serum/serum/lib/market'
-import { PerpTriggerOrder } from '../@types/types'
-import useMangoStore from '../../stores/useMangoStore'
+import { PerpTriggerOrder } from '~/@types/types'
+import useMangoStore from '~/stores/useMangoStore'
 
 type OrderInfo = {
   order: Order | PerpOrder | PerpTriggerOrder

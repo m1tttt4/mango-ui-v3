@@ -1,12 +1,12 @@
-import { Balances } from '../@types/types'
+import { Balances } from '~/@types/types'
 import {
   getTokenBySymbol,
   nativeI80F48ToUi,
   nativeToUi,
   QUOTE_INDEX,
 } from '@blockworks-foundation/mango-client'
-import useMangoStore from '../../stores/useMangoStore'
-import { i80f48ToPercent } from '../../utils/index'
+import useMangoStore from '~/stores/useMangoStore'
+import { i80f48ToPercent } from '~/utils/index'
 import { sumBy } from 'lodash'
 import { I80F48 } from '@blockworks-foundation/mango-client/lib/src/fixednum'
 

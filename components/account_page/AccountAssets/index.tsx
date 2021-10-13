@@ -1,20 +1,20 @@
 import { useCallback, useState } from 'react'
 import { Table, Thead, Tbody, Tr, Th, Td } from 'react-super-responsive-table'
 import { InformationCircleIcon } from '@heroicons/react/outline'
-import useMangoStore from '../../../stores/useMangoStore'
-import { useBalances } from '../../../hooks/useBalances'
-import { tokenPrecision } from '../../../utils/index'
-import DepositModal from '../../DepositModal'
-import WithdrawModal from '../../WithdrawModal'
-import Button from '../../Button'
-import Tooltip from '../../Tooltip'
+import useMangoStore from '~/stores/useMangoStore'
+import { useBalances } from '~/hooks/useBalances'
+import { tokenPrecision } from '~/utils/index'
+import DepositModal from '~/DepositModal'
+import WithdrawModal from '~/WithdrawModal'
+import Button from '~/Button'
+import Tooltip from '~/Tooltip'
 import { Market } from '@project-serum/serum'
 import {
   getTokenBySymbol,
   I80F48,
   PerpMarket,
 } from '@blockworks-foundation/mango-client'
-import { notify } from '../../../utils/notifications'
+import { notify } from '~/utils/notifications'
 
 export default function AccountAssets() {
   const balances = useBalances()

@@ -1,13 +1,13 @@
-import { ElementTitle } from '../styles'
-import useMangoStore from '../../stores/useMangoStore'
-import { i80f48ToPercent, floorToDecimal } from '../../utils/index'
-import Tooltip from '../Tooltip'
+import { ElementTitle } from '~/components/styles'
+import useMangoStore from '~/stores/useMangoStore'
+import { i80f48ToPercent, floorToDecimal } from '~/utils/index'
+import Tooltip from '~/components/Tooltip'
 import {
   getMarketIndexBySymbol,
   nativeI80F48ToUi,
 } from '@blockworks-foundation/mango-client'
-import { useViewport } from '../../hooks/useViewport'
-import { breakpoints } from '../TradePageGrid'
+import { useViewport } from '~/hooks/useViewport'
+import { breakpoints } from '~/components/TradePageGrid'
 
 export default function MarketBalances() {
   const mangoGroup = useMangoStore((s) => s.selectedMangoGroup.current)

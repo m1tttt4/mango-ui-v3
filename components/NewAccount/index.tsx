@@ -3,21 +3,21 @@ import {
   ExclamationCircleIcon,
   InformationCircleIcon,
 } from '@heroicons/react/outline'
-import Input from '../Input'
-import AccountSelect from '../AccountSelect'
-import { ElementTitle } from '../styles'
-import useMangoStore from '../../stores/useMangoStore'
+import Input from '~/components/Input'
+import AccountSelect from '~/components/AccountSelect'
+import { ElementTitle } from '~/components/styles'
+import useMangoStore from '~/stores/useMangoStore'
 import {
   getSymbolForTokenMintAddress,
   trimDecimals,
   sleep,
-} from '../../utils/index'
-import Loading from '../Loading'
-import Button from '../Button'
-import Slider from '../Slider'
-import Tooltip from '../Tooltip'
-import { notify } from '../../utils/notifications'
-import { deposit } from '../../utils/mango'
+} from '~/utils/index'
+import Loading from '~/components/Loading'
+import Button from '~/components/Button'
+import Slider from '~/components/Slider'
+import Tooltip from '~/components/Tooltip'
+import { notify } from '~/utils/notifications'
+import { deposit } from '~/utils/mango'
 
 interface NewAccountProps {
   onAccountCreation?: (x?) => void

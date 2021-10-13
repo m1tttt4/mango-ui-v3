@@ -1,6 +1,6 @@
 import { Fragment, FunctionComponent, ReactNode } from 'react'
 import { Listbox, Transition } from '@headlessui/react'
-import Tooltip from '../Tooltip'
+import Tooltip from '~/components/Tooltip'
 
 type DropMenuProps = {
   button: ReactNode

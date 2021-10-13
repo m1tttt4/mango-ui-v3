@@ -1,14 +1,14 @@
 import React, { FunctionComponent, useEffect, useMemo, useState } from 'react'
-import Modal from '../Modal'
-import Input from '../Input'
-import { ElementTitle } from '../styles'
-import useMangoStore from '../../stores/useMangoStore'
-import { floorToDecimal, tokenPrecision } from '../../utils/index'
-import Loading from '../Loading'
-import Slider from '../Slider'
-import Button, { LinkButton } from '../Button'
-import Switch from '../Switch'
-import Tooltip from '../Tooltip'
+import Modal from '~/components/Modal'
+import Input from '~/components/Input'
+import { ElementTitle } from '~/components/styles'
+import useMangoStore from '~/stores/useMangoStore'
+import { floorToDecimal, tokenPrecision } from '~/utils/index'
+import Loading from '~/components/Loading'
+import Slider from '~/components/Slider'
+import Button, { LinkButton } from '~/components/Button'
+import Switch from '~/components/Switch'
+import Tooltip from '~/components/Tooltip'
 import {
   ExclamationCircleIcon,
   InformationCircleIcon,
@@ -19,15 +19,15 @@ import {
   ChevronUpIcon,
 } from '@heroicons/react/solid'
 import { Disclosure } from '@headlessui/react'
-import Select from '../Select'
-import { withdraw } from '../../utils/mango'
+import Select from '~/components/Select'
+import { withdraw } from '~/utils/mango'
 import {
   ZERO_I80F48,
   I80F48,
   MangoAccount,
   nativeI80F48ToUi,
 } from '@blockworks-foundation/mango-client'
-import { notify } from '../../utils/notifications'
+import { notify } from '~/utils/notifications'
 
 interface WithdrawModalProps {
   onClose: () => void

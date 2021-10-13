@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
-import { RefreshClockwiseIcon } from '../icons'
-import useMangoStore from '../../stores/useMangoStore'
-import Tooltip from '../Tooltip'
-import { IconButton } from '../Button'
+import { RefreshClockwiseIcon } from '~/components/icons'
+import useMangoStore from '~/stores/useMangoStore'
+import Tooltip from '~/components/Tooltip'
+import { IconButton } from '~/components/Button'
 
 const ManualRefresh = ({ className = '' }) => {
   const [spin, setSpin] = useState(false)

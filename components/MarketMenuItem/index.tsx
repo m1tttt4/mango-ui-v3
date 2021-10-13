@@ -19,7 +19,7 @@ import {
   SushiMonoIcon,
   UniMonoIcon,
   UsdtMonoIcon,
-} from '../icons'
+} from '~/components/icons'
 
 const symbolIcons = {
   AaveMonoIcon,

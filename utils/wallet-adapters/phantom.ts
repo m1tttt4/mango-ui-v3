@@ -1,7 +1,7 @@
 import EventEmitter from 'eventemitter3'
 import { PublicKey, Transaction } from '@solana/web3.js'
-import { notify } from '../../utils/notifications'
-import { DEFAULT_PUBLIC_KEY, WalletAdapter } from '../../@types/types'
+import { notify } from '~/utils/notifications'
+import { DEFAULT_PUBLIC_KEY, WalletAdapter } from '~/@types/types'
 
 type PhantomEvent = 'disconnect' | 'connect'
 type PhantomRequestMethod =

@@ -1,4 +1,4 @@
-import { PageBodyWrapper } from '../styles'
+import { PageBodyWrapper } from '~/components/styles'
 
 const PageBodyContainer = ({ children }) => (
   <PageBodyWrapper className="grid grid-cols-12 gap-4 pb-14">

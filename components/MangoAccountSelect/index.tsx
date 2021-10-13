@@ -1,8 +1,8 @@
 import { MangoAccount } from '@blockworks-foundation/mango-client'
 import { useEffect, useState } from 'react'
-import useMangoStore from '../../stores/useMangoStore'
-import Select from '../Select'
-import { abbreviateAddress } from '../../utils'
+import useMangoStore from '~/stores/useMangoStore'
+import Select from '~/components/Select'
+import { abbreviateAddress } from '~/utils'
 
 type MangoAccountSelectProps = {
   className?: string

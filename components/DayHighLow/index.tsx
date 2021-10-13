@@ -1,5 +1,5 @@
-import { formatUsdValue } from '../../utils'
-import { MarketDataLoader } from '../MarketDetails'
+import { formatUsdValue } from '~/utils'
+import { MarketDataLoader } from '~/components/MarketDetails'
 
 const DayHighLow = ({ high, low, latest }) => {
   let rangePercent = 0

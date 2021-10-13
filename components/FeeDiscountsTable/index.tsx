@@ -1,7 +1,7 @@
-import { percentFormat } from '../../utils/index'
-import useSrmAccount from '../../hooks/useSrmAccount'
+import { percentFormat } from '~/utils/index'
+import useSrmAccount from '~/hooks/useSrmAccount'
 import { SRM_DECIMALS } from '@project-serum/serum/lib/token-instructions'
-import Tooltip from '../Tooltip'
+import Tooltip from '~/components/Tooltip'
 import { InformationCircleIcon } from '@heroicons/react/outline'
 
 const FeeDiscountsTable = () => {

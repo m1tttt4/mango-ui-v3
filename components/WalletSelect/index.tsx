@@ -4,13 +4,13 @@ import {
   ChevronUpIcon,
   CheckCircleIcon,
 } from '@heroicons/react/solid'
-import useMangoStore from '../../stores/useMangoStore'
+import useMangoStore from '~/stores/useMangoStore'
 import {
   WALLET_PROVIDERS,
   DEFAULT_PROVIDER,
   PROVIDER_LOCAL_STORAGE_KEY,
-} from '../../hooks/useWallet'
-import useLocalStorageState from '../../hooks/useLocalStorageState'
+} from '~/hooks/useWallet'
+import useLocalStorageState from '~/hooks/useLocalStorageState'
 
 export default function WalletSelect({ isPrimary = false }) {
   const setMangoStore = useMangoStore((s) => s.set)

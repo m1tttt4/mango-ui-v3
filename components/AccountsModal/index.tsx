@@ -2,19 +2,19 @@ import React, { FunctionComponent, useEffect, useState } from 'react'
 import { RadioGroup } from '@headlessui/react'
 import { CheckCircleIcon } from '@heroicons/react/solid'
 import { PlusCircleIcon } from '@heroicons/react/outline'
-import useMangoStore from '../../stores/useMangoStore'
+import useMangoStore from '~/stores/useMangoStore'
 import {
   MangoAccount,
   MangoCache,
   MangoGroup,
   // ZERO_I80F48,
 } from '@blockworks-foundation/mango-client'
-import { abbreviateAddress, formatUsdValue } from '../../utils'
-import useLocalStorageState from '../../hooks/useLocalStorageState'
-import Modal from '../Modal'
-import { ElementTitle } from '../styles'
-import Button, { LinkButton } from '../Button'
-import NewAccount from '../NewAccount'
+import { abbreviateAddress, formatUsdValue } from '~/utils'
+import useLocalStorageState from '~/hooks/useLocalStorageState'
+import Modal from '~/components/Modal'
+import { ElementTitle } from '~/components/styles'
+import Button, { LinkButton } from '~/components/Button'
+import NewAccount from '~/components/NewAccount'
 
 export const LAST_ACCOUNT_KEY = 'lastAccountViewed-3.0'
 

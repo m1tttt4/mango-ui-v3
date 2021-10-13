@@ -1,5 +1,5 @@
 import { PerpAccount, ZERO_BN } from '@blockworks-foundation/mango-client'
-import SideBadge from '../SideBadge'
+import SideBadge from '~/components/SideBadge'
 
 const PerpSideBadge = ({ perpAccount }: { perpAccount: PerpAccount }) => (
   <>

@@ -1,8 +1,8 @@
 import { TemplateIcon } from '@heroicons/react/outline'
-import { defaultLayouts, GRID_LAYOUT_KEY } from '../TradePageGrid'
-import useLocalStorageState from '../../hooks/useLocalStorageState'
-import Tooltip from '../Tooltip'
-import { IconButton } from '../Button'
+import { defaultLayouts, GRID_LAYOUT_KEY } from '~/components/TradePageGrid'
+import useLocalStorageState from '~/hooks/useLocalStorageState'
+import Tooltip from '~/components/Tooltip'
+import { IconButton } from '~/components/Button'
 
 const ResetLayout = ({ className = '' }) => {
   const [, setSavedLayouts] = useLocalStorageState(

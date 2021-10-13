@@ -2,11 +2,11 @@ import React from 'react'
 import Link from 'next/link'
 import { EyeIcon, EyeOffIcon } from '@heroicons/react/outline'
 import { ChevronRightIcon } from '@heroicons/react/solid'
-import Modal from '../Modal'
-import useLocalStorageState from '../../hooks/useLocalStorageState'
-import useMangoStore from '../../stores/useMangoStore'
-import { formatUsdValue } from '../../utils'
-import { LinkButton } from '../Button'
+import Modal from '~/components/Modal'
+import useLocalStorageState from '~/hooks/useLocalStorageState'
+import useMangoStore from '~/stores/useMangoStore'
+import { formatUsdValue } from '~/utils'
+import { LinkButton } from '~/components/Button'
 
 const MarketsModal = ({
   isOpen,

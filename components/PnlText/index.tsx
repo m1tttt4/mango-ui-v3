@@ -1,4 +1,4 @@
-import { formatUsdValue } from '../../utils'
+import { formatUsdValue } from '~/utils'
 
 const PnlText = ({ className, pnl }: { className?: string; pnl?: number }) => (
   <>

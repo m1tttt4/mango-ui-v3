@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import Chart from '../../Chart'
-import Select from '../../Select'
+import Chart from '~/Chart'
+import Select from '~/Select'
 
 const icons = {
   BTC: '/assets/icons/btc.svg',

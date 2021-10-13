@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react'
 import styled from '@emotion/styled'
 import { PlusCircleIcon } from '@heroicons/react/outline'
-import useMangoGroupConfig from '../../hooks/useMangoGroupConfig'
-import useMangoStore from '../../stores/useMangoStore'
-import MarketMenuItem from '../MarketMenuItem'
-import { LinkButton } from '../Button'
-import MarketsModal from '../MarketsModal'
-import useLocalStorageState from '../../hooks/useLocalStorageState'
+import useMangoGroupConfig from '~/hooks/useMangoGroupConfig'
+import useMangoStore from '~/stores/useMangoStore'
+import MarketMenuItem from '~/components/MarketMenuItem'
+import { LinkButton } from '~/components/Button'
+import MarketsModal from '~/components/MarketsModal'
+import useLocalStorageState from '~/hooks/useLocalStorageState'
 
 const StyledMarketSelectWrapper = styled.div`
   -ms-overflow-style: none;

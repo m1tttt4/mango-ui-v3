@@ -3,9 +3,9 @@ import styled from '@emotion/styled'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { ChartBarIcon, CurrencyDollarIcon } from '@heroicons/react/solid'
-import { BtcMonoIcon, TradeIcon } from '../../icons'
-import useMangoGroupConfig from '../../../hooks/useMangoGroupConfig'
-import MarketsModal from '../../MarketsModal'
+import { BtcMonoIcon, TradeIcon } from '~/components/icons'
+import useMangoGroupConfig from '~/hooks/useMangoGroupConfig'
+import MarketsModal from '~/components/MarketsModal'
 
 const StyledBarItemLabel = styled.div`
   font-size: 0.6rem;

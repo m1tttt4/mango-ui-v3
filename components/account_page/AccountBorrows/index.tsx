@@ -4,22 +4,22 @@ import {
   ZERO_I80F48,
   I80F48,
 } from '@blockworks-foundation/mango-client'
-import useMangoStore from '../../../stores/useMangoStore'
-import { useBalances } from '../../../hooks/useBalances'
+import useMangoStore from '~/stores/useMangoStore'
+import { useBalances } from '~/hooks/useBalances'
 import {
   floorToDecimal,
   formatUsdValue,
   i80f48ToPercent,
   tokenPrecision,
-} from '../../../utils/index'
-import WithdrawModal from '../../WithdrawModal'
-import Button from '../../Button'
-import DepositModal from '../../DepositModal'
-import { useViewport } from '../../../hooks/useViewport'
-import { breakpoints } from '../../TradePageGrid'
-import { Table, Td, Th, TrBody, TrHead } from '../../TableElements'
-import { ExpandableRow } from '../../TableElements'
-import MobileTableHeader from '../../mobile/MobileTableHeader'
+} from '~/utils/index'
+import WithdrawModal from '~/WithdrawModal'
+import Button from '~/Button'
+import DepositModal from '~/DepositModal'
+import { useViewport } from '~/hooks/useViewport'
+import { breakpoints } from '~/TradePageGrid'
+import { Table, Td, Th, TrBody, TrHead } from '~/TableElements'
+import { ExpandableRow } from '~/TableElements'
+import MobileTableHeader from '~/mobile/MobileTableHeader'
 
 export default function AccountBorrows() {
   const balances = useBalances()

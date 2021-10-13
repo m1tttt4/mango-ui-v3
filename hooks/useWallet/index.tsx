@@ -1,15 +1,15 @@
 import { useEffect, useMemo } from 'react'
 import Wallet from '@project-serum/sol-wallet-adapter'
-import useLocalStorageState from '../useLocalStorageState'
-import useMangoStore from '../../stores/useMangoStore'
-import { notify } from '../../utils/notifications'
+import useLocalStorageState from '~/hooks/useLocalStorageState'
+import useMangoStore from '~/stores/useMangoStore'
+import { notify } from '~/utils/notifications'
 import {
   PhantomWalletAdapter,
   SlopeWalletAdapter,
   SolletExtensionAdapter,
-} from '../../utils/wallet-adapters'
-import { WalletAdapter } from '../@types/types'
-import useInterval from '../useInterval'
+} from '~/utils/wallet-adapters'
+import { WalletAdapter } from '~/@types/types'
+import useInterval from '~/hooks/useInterval'
 
 const SECONDS = 1000
 const ASSET_URL =

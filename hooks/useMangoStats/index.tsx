@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import { I80F48 } from '@blockworks-foundation/mango-client'
-import useMangoStore from '../../stores/useMangoStore'
-import useMangoGroupConfig from '../useMangoGroupConfig'
-import { tokenPrecision } from '../../utils'
+import useMangoStore from '~/stores/useMangoStore'
+import useMangoGroupConfig from '~/hooks/useMangoGroupConfig'
+import { tokenPrecision } from '~/utils'
 
 const useMangoStats = () => {
   const [stats, setStats] = useState([

@@ -1,14 +1,14 @@
 import { useCallback, useState } from 'react'
 import Link from 'next/link'
-import { abbreviateAddress } from '../../utils/index'
-import useLocalStorageState from '../../hooks/useLocalStorageState'
-import MenuItem from '../MenuItem'
-import ThemeSwitch from '../ThemeSwitch'
-import useMangoStore from '../../stores/useMangoStore'
-import ConnectWalletButton from '../ConnectWalletButton'
-import NavDropMenu from '../NavDropMenu'
-import AccountsModal from '../AccountsModal'
-import { DEFAULT_MARKET_KEY, initialMarket } from '../SettingsModal'
+import { abbreviateAddress } from '~/utils/index'
+import useLocalStorageState from '~/hooks/useLocalStorageState'
+import MenuItem from '~/components/MenuItem'
+import ThemeSwitch from '~/components/ThemeSwitch'
+import useMangoStore from '~/stores/useMangoStore'
+import ConnectWalletButton from '~/components/ConnectWalletButton'
+import NavDropMenu from '~/components/NavDropMenu'
+import AccountsModal from '~/components/AccountsModal'
+import { DEFAULT_MARKET_KEY, initialMarket } from '~/components/SettingsModal'
 
 const TopBar = () => {
   const mangoAccount = useMangoStore((s) => s.selectedMangoAccount.current)

@@ -1,23 +1,23 @@
 import dynamic from 'next/dynamic'
 import { Responsive, WidthProvider } from 'react-grid-layout'
 import { round, max } from 'lodash'
-import MobileTradePage from '../mobile/MobileTradePage'
+import MobileTradePage from '~/components/mobile/MobileTradePage'
 
-const TVChartContainer = dynamic(() => import('../TradingView/index'), {
+const TVChartContainer = dynamic(() => import('~/components/TradingView/index'), {
   ssr: false,
 })
 import { useEffect, useState } from 'react'
-import FloatingElement from '../FloatingElement'
-import Orderbook from '../Orderbook'
-import AccountInfo from '../AccountInfo'
-import UserMarketInfo from '../UserMarketInfo'
-import TradeForm from '../trade_form/TradeForm'
-import UserInfo from '../UserInfo'
-import RecentMarketTrades from '../RecentMarketTrades'
-import useMangoStore from '../../stores/useMangoStore'
-import useLocalStorageState from '../../hooks/useLocalStorageState'
-import { useViewport } from '../../hooks/useViewport'
-import MarketDetails from '../MarketDetails'
+import FloatingElement from '~/components/FloatingElement'
+import Orderbook from '~/components/Orderbook'
+import AccountInfo from '~/components/AccountInfo'
+import UserMarketInfo from '~/components/UserMarketInfo'
+import TradeForm from '~/components/trade_form/TradeForm'
+import UserInfo from '~/components/UserInfo'
+import RecentMarketTrades from '~/components/RecentMarketTrades'
+import useMangoStore from '~/stores/useMangoStore'
+import useLocalStorageState from '~/hooks/useLocalStorageState'
+import { useViewport } from '~/hooks/useViewport'
+import MarketDetails from '~/components/MarketDetails'
 
 const ResponsiveGridLayout = WidthProvider(Responsive)
 

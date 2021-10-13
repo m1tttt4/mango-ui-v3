@@ -1,6 +1,6 @@
 import { FunctionComponent, ReactNode } from 'react'
-import useMangoStore from '../../stores/useMangoStore'
-import Button from '../Button'
+import useMangoStore from '~/stores/useMangoStore'
+import Button from '~/components/Button'
 
 interface EmptyStateProps {
   buttonText?: string

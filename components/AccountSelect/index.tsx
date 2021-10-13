@@ -1,10 +1,10 @@
 import { useMemo, useState } from 'react'
 import { Listbox } from '@headlessui/react'
 import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/solid'
-import { abbreviateAddress } from '../../utils'
-import useMangoStore, { WalletToken } from '../../stores/useMangoStore'
-import { RefreshClockwiseIcon } from '../icons'
-import useMangoGroupConfig from '../../hooks/useMangoGroupConfig'
+import { abbreviateAddress } from '~/utils'
+import useMangoStore, { WalletToken } from '~/stores/useMangoStore'
+import { RefreshClockwiseIcon } from '~/components/icons'
+import useMangoGroupConfig from '~/hooks/useMangoGroupConfig'
 
 type AccountSelectProps = {
   accounts: WalletToken[]

@@ -1,5 +1,5 @@
 import Wallet from '@project-serum/sol-wallet-adapter'
-import { notify } from '../../utils/notifications'
+import { notify } from '~/utils/notifications'
 
 export function SolletExtensionAdapter(_, network) {
   const sollet = (window as any).sollet

@@ -1,12 +1,12 @@
 import { useCallback, useState } from 'react'
 import { CurrencyDollarIcon, LinkIcon } from '@heroicons/react/outline'
-import useMangoStore from '../stores/useMangoStore'
-import PageBodyContainer from '../components/PageBodyContainer'
-import TopBar from '../components/TopBar'
-import EmptyState from '../components/EmptyState'
-import AccountsModal from '../components/AccountsModal'
-import AccountBorrows from '../components/account_page/AccountBorrows'
-import Loading from '../components/Loading'
+import useMangoStore from '~/stores/useMangoStore'
+import PageBodyContainer from '~/components/PageBodyContainer'
+import TopBar from '~/components/TopBar'
+import EmptyState from '~/components/EmptyState'
+import AccountsModal from '~/components/AccountsModal'
+import AccountBorrows from '~/components/account_page/AccountBorrows'
+import Loading from '~/components/Loading'
 
 export default function Borrow() {
   const [showAccountsModal, setShowAccountsModal] = useState(false)

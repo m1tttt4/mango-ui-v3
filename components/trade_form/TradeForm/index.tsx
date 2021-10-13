@@ -1,16 +1,16 @@
 import { useMemo, useState } from 'react'
 import { SwitchHorizontalIcon } from '@heroicons/react/outline'
 import { getWeights } from '@blockworks-foundation/mango-client'
-import useMangoStore from '../../../stores/useMangoStore'
-import AdvancedTradeForm from '../AdvancedTradeForm'
-import SimpleTradeForm from '../SimpleTradeForm'
+import useMangoStore from '~/stores/useMangoStore'
+import AdvancedTradeForm from '~/components/trade_form/AdvancedTradeForm'
+import SimpleTradeForm from '~/components/trade_form/SimpleTradeForm'
 import {
   FlipCard,
   FlipCardBack,
   FlipCardFront,
   FlipCardInner,
   StyledFloatingElement,
-} from '../../FlipCard'
+} from '~/components/FlipCard'
 
 export default function TradeForm() {
   const [showAdvancedFrom, setShowAdvancedForm] = useState(true)

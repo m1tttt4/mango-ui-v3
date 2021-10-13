@@ -1,4 +1,4 @@
-import { ChartTradeType } from '../@types/types'
+import { ChartTradeType } from '~/@types/types'
 
 const baseUrl = 'https://serum-history.herokuapp.com'
 export default class ChartApi {

@@ -1,5 +1,5 @@
 import { useCallback, useState } from 'react'
-import useMangoStore from '../../stores/useMangoStore'
+import useMangoStore from '~/stores/useMangoStore'
 import { Menu } from '@headlessui/react'
 import {
   CogIcon,
@@ -11,14 +11,14 @@ import {
   WALLET_PROVIDERS,
   DEFAULT_PROVIDER,
   PROVIDER_LOCAL_STORAGE_KEY,
-} from '../../hooks/useWallet'
-import useLocalStorageState from '../../hooks/useLocalStorageState'
-import { abbreviateAddress, copyToClipboard } from '../../utils'
-import WalletSelect from '../WalletSelect'
-import { WalletIcon, ProfileIcon } from '../icons'
-import AccountsModal from '../AccountsModal'
+} from '~/hooks/useWallet'
+import useLocalStorageState from '~/hooks/useLocalStorageState'
+import { abbreviateAddress, copyToClipboard } from '~/utils'
+import WalletSelect from '~/components/WalletSelect'
+import { WalletIcon, ProfileIcon } from '~/components/icons'
+import AccountsModal from '~/components/AccountsModal'
 import { useEffect } from 'react'
-import SettingsModal from '../SettingsModal'
+import SettingsModal from '~/components/SettingsModal'
 
 const ConnectWalletButton = () => {
   const wallet = useMangoStore((s) => s.wallet.current)

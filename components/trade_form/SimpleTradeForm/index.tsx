@@ -1,27 +1,27 @@
 import { useState, useEffect, useRef, useMemo } from 'react'
-import useIpAddress from '../../../hooks/useIpAddress'
+import useIpAddress from '~/hooks/useIpAddress'
 import {
   getTokenBySymbol,
   getMarketIndexBySymbol,
   I80F48,
   PerpMarket,
 } from '@blockworks-foundation/mango-client'
-import { notify } from '../../../utils/notifications'
-import { calculateTradePrice, getDecimalCount, sleep } from '../../../utils'
-import { floorToDecimal } from '../../../utils/index'
-import useMangoStore from '../../../stores/useMangoStore'
-import Button from '../../Button'
-import Input from '../../Input'
+import { notify } from '~/utils/notifications'
+import { calculateTradePrice, getDecimalCount, sleep } from '~/utils'
+import { floorToDecimal } from '~/utils/index'
+import useMangoStore from '~/stores/useMangoStore'
+import Button from '~/components/Button'
+import Input from '~/components/Input'
 import { Market } from '@project-serum/serum'
 import Big from 'big.js'
-import MarketFee from '../../MarketFee'
-import Loading from '../../Loading'
-import { ElementTitle } from '../../styles'
-import ButtonGroup from '../../ButtonGroup'
-import Checkbox from '../../Checkbox'
-import OrderSideTabs from '../OrderSideTabs'
-import Tooltip from '../../Tooltip'
-import EstPriceImpact from '../EstPriceImpact'
+import MarketFee from '~/components/MarketFee'
+import Loading from '~/components/Loading'
+import { ElementTitle } from '~/components/styles'
+import ButtonGroup from '~/components/ButtonGroup'
+import Checkbox from '~/components/Checkbox'
+import OrderSideTabs from '~/components/trade_form/OrderSideTabs'
+import Tooltip from '~/components/Tooltip'
+import EstPriceImpact from '~/components/trade_form/EstPriceImpact'
 
 export default function SimpleTradeForm({ initLeverage }) {
   const set = useMangoStore((s) => s.set)

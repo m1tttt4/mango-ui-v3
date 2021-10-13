@@ -1,5 +1,5 @@
 import { useMemo, useState, useEffect, useRef } from 'react'
-import useIpAddress from '../../../hooks/useIpAddress'
+import useIpAddress from '~/hooks/useIpAddress'
 import {
   getMarketIndexBySymbol,
   getTokenBySymbol,
@@ -7,26 +7,26 @@ import {
   nativeI80F48ToUi,
   PerpMarket,
 } from '@blockworks-foundation/mango-client'
-import { notify } from '../../../utils/notifications'
-import { calculateTradePrice, getDecimalCount } from '../../../utils'
-import { floorToDecimal } from '../../../utils/index'
-import useMangoStore, { Orderbook } from '../../../stores/useMangoStore'
-import Button from '../../Button'
-import TradeType from '../TradeType'
-import Input from '../../Input'
+import { notify } from '~/utils/notifications'
+import { calculateTradePrice, getDecimalCount } from '~/utils'
+import { floorToDecimal } from '~/utils/index'
+import useMangoStore, { Orderbook } from '~/stores/useMangoStore'
+import Button from '~/components/Button'
+import TradeType from '~/components/trade_form/TradeType'
+import Input from '~/components/Input'
 import { Market } from '@project-serum/serum'
 import Big from 'big.js'
-import MarketFee from '../../MarketFee'
-import Loading from '../../Loading'
-import Tooltip from '../../Tooltip'
-import OrderSideTabs from '../OrderSideTabs'
-import { ElementTitle } from '../../styles'
-import ButtonGroup from '../../ButtonGroup'
-import Checkbox from '../../Checkbox'
-import { useViewport } from '../../../hooks/useViewport'
-import { breakpoints } from '../../TradePageGrid'
-import EstPriceImpact from '../EstPriceImpact'
-import useFees from '../../../hooks/useFees'
+import MarketFee from '~/components/MarketFee'
+import Loading from '~/components/Loading'
+import Tooltip from '~/components/Tooltip'
+import OrderSideTabs from '~/components/trade_form/OrderSideTabs'
+import { ElementTitle } from '~/components/styles'
+import ButtonGroup from '~/components/ButtonGroup'
+import Checkbox from '~/components/Checkbox'
+import { useViewport } from '~/hooks/useViewport'
+import { breakpoints } from '~/components/TradePageGrid'
+import EstPriceImpact from '~/components/trade_form/EstPriceImpact'
+import useFees from '~/hooks/useFees'
 
 export const TRIGGER_ORDER_TYPES = [
   'Stop Loss',

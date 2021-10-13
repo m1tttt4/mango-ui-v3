@@ -6,20 +6,20 @@ import {
   ZERO_BN,
   ZERO_I80F48,
 } from '@blockworks-foundation/mango-client'
-import { useCallback, useState } from 'react'
+import React, { useCallback, useState } from 'react'
 import { ExclamationIcon, HeartIcon } from '@heroicons/react/solid'
-import useMangoStore, { MNGO_INDEX } from '../../stores/useMangoStore'
-import { formatUsdValue, usdFormatter } from '../../utils'
-import { notify } from '../../utils/notifications'
-import { LinkButton } from '../Button'
-import { ElementTitle } from '../styles'
-import Tooltip from '../Tooltip'
-import DepositModal from '../DepositModal'
-import WithdrawModal from '../WithdrawModal'
-import Button from '../Button'
-import { DataLoader } from '../MarketPosition'
-import { useViewport } from '../../hooks/useViewport'
-import { breakpoints } from '../TradePageGrid'
+import useMangoStore, { MNGO_INDEX } from '~/stores/useMangoStore'
+import { formatUsdValue, usdFormatter } from '~/utils'
+import { notify } from '~/utils/notifications'
+import { LinkButton } from '~/components/Button'
+import { ElementTitle } from '~/components/styles'
+import Tooltip from '~/components/Tooltip'
+import DepositModal from '~/components/DepositModal'
+import WithdrawModal from '~/components/WithdrawModal'
+import Button from '~/components/Button'
+import { DataLoader } from '~/components/MarketPosition'
+import { useViewport } from '~/hooks/useViewport'
+import { breakpoints } from '~/components/TradePageGrid'
 
 const I80F48_100 = I80F48.fromString('100')
 

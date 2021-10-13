@@ -2,8 +2,8 @@ import {
   getMarketIndexBySymbol,
   PerpMarket,
 } from '@blockworks-foundation/mango-client'
-import useSrmAccount from '..//useSrmAccount'
-import useMangoStore from '../../stores/useMangoStore'
+import useSrmAccount from '~/hooks/useSrmAccount'
+import useMangoStore from '~/stores/useMangoStore'
 
 export default function useFees() {
   const { rates } = useSrmAccount()

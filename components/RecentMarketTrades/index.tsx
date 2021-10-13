@@ -1,13 +1,13 @@
 import { useCallback, useEffect, useState } from 'react'
-import { ChartTradeType } from '../@types/types'
-import useInterval from '../../hooks/useInterval'
-import ChartApi from '../../utils/chartDataConnector'
-import { ElementTitle } from '../styles'
-import { getDecimalCount, isEqual } from '../../utils/index'
-import useMangoStore from '../../stores/useMangoStore'
-import { useViewport } from '../../hooks/useViewport'
-import { breakpoints } from '../TradePageGrid'
-import { ExpandableRow } from '../TableElements'
+import { ChartTradeType } from '~/components/@types/types'
+import useInterval from '~/hooks/useInterval'
+import ChartApi from '~/utils/chartDataConnector'
+import { ElementTitle } from '~/components/styles'
+import { getDecimalCount, isEqual } from '~/utils/index'
+import useMangoStore from '~/stores/useMangoStore'
+import { useViewport } from '~/hooks/useViewport'
+import { breakpoints } from '~/components/TradePageGrid'
+import { ExpandableRow } from '~/components/TableElements'
 
 export default function RecentMarketTrades() {
   const mangoConfig = useMangoStore((s) => s.selectedMangoGroup.config)

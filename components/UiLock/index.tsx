@@ -1,9 +1,9 @@
 import { LockClosedIcon, LockOpenIcon } from '@heroicons/react/outline'
 import { Transition } from '@headlessui/react'
-import useMangoStore from '../../stores/useMangoStore'
-import ResetLayout from '../ResetLayout'
-import Tooltip from '../Tooltip'
-import { IconButton } from '../Button'
+import useMangoStore from '~/stores/useMangoStore'
+import ResetLayout from '~/components/ResetLayout'
+import Tooltip from '~/components/Tooltip'
+import { IconButton } from '~/components/Button'
 
 const UiLock = ({ className = '' }) => {
   const set = useMangoStore((s) => s.set)

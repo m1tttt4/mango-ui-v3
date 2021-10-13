@@ -1,8 +1,8 @@
 import { PublicKey, Transaction } from '@solana/web3.js'
 import bs58 from 'bs58'
 import EventEmitter from 'events'
-import { WalletAdapter } from '../../@types/types'
-import { notify } from '../notifications'
+import { WalletAdapter } from '~/@types/types'
+import { notify } from '~/utils/notifications'
 
 interface SlopeWallet {
   connect(): Promise<{

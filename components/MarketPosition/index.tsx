@@ -1,24 +1,24 @@
 import { useCallback, useMemo, useState } from 'react'
-import { ElementTitle } from '../styles'
-import useMangoStore from '../../stores/useMangoStore'
-import { formatUsdValue } from '../../utils/index'
-import Button, { LinkButton } from '../Button'
-import Tooltip from '../Tooltip'
-import PerpSideBadge from '../PerpSideBadge'
+import { ElementTitle } from '~/components/styles'
+import useMangoStore from '~/stores/useMangoStore'
+import { formatUsdValue } from '~/utils/index'
+import Button, { LinkButton } from '~/components/Button'
+import Tooltip from '~/components/Tooltip'
+import PerpSideBadge from '~/components/PerpSideBadge'
 import {
   getMarketIndexBySymbol,
   PerpAccount,
   PerpMarket,
   QUOTE_INDEX,
 } from '@blockworks-foundation/mango-client'
-import useTradeHistory from '../../hooks/useTradeHistory'
-import { notify } from '../../utils/notifications'
-import MarketCloseModal from '../MarketCloseModal'
-import PnlText from '../PnlText'
-import Loading from '../Loading'
-import { useViewport } from '../../hooks/useViewport'
-import { breakpoints } from '../TradePageGrid'
-import { collectPerpPosition } from '../../hooks/usePerpPositions'
+import useTradeHistory from '~/hooks/useTradeHistory'
+import { notify } from '~/utils/notifications'
+import MarketCloseModal from '~/components/MarketCloseModal'
+import PnlText from '~/components/PnlText'
+import Loading from '~/components/Loading'
+import { useViewport } from '~/hooks/useViewport'
+import { breakpoints } from '~/components/TradePageGrid'
+import { collectPerpPosition } from '~/hooks/usePerpPositions'
 
 export const settlePnl = async (
   perpMarket: PerpMarket,

@@ -1,8 +1,8 @@
 import { useEffect } from 'react'
 import { AccountInfo } from '@solana/web3.js'
-import useMangoStore from '../../stores/useMangoStore'
-import useInterval from '../useInterval'
-import useOrderbook from '../useOrderbook'
+import useMangoStore from '~/stores/useMangoStore'
+import useInterval from '~/hooks/useInterval'
+import useOrderbook from '~/hooks/useOrderbook'
 
 const SECONDS = 1000
 const _SLOW_REFRESH_INTERVAL = 20 * SECONDS

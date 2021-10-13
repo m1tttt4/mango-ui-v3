@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import useMangoStore from '../../stores/useMangoStore'
+import useMangoStore from '~/stores/useMangoStore'
 import { Config } from '@blockworks-foundation/mango-client'
 import { GroupConfig } from '@blockworks-foundation/mango-client/lib/src/config'
 

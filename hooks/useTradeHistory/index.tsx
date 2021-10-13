@@ -1,6 +1,6 @@
 import { getMarketByPublicKey } from '@blockworks-foundation/mango-client'
 import { PublicKey } from '@solana/web3.js'
-import useMangoStore from '../../stores/useMangoStore'
+import useMangoStore from '~/stores/useMangoStore'
 
 const byTimestamp = (a, b) => {
   return (

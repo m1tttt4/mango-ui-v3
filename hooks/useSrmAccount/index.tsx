@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import useMangoStore from '../../stores/useMangoStore'
+import useMangoStore from '~/stores/useMangoStore'
 import { nativeToUi } from '@blockworks-foundation/mango-client'
 import { SRM_DECIMALS } from '@project-serum/serum/lib/token-instructions'
 import { getFeeTier, getFeeRates } from '@project-serum/serum'
-import { parseTokenAccountData } from '../../utils/tokens'
+import { parseTokenAccountData } from '~/utils/tokens'
 import { useEffect } from 'react'
 
 const useSrmAccount = () => {

@@ -1,4 +1,4 @@
-import useMangoStore from '../../stores/useMangoStore'
+import useMangoStore from '~/stores/useMangoStore'
 import BN from 'bn.js'
 import {
   MangoAccount,
@@ -8,7 +8,7 @@ import {
   PerpMarket,
   PerpMarketConfig,
 } from '@blockworks-foundation/mango-client'
-import useTradeHistory from '../useTradeHistory'
+import useTradeHistory from '~/hooks/useTradeHistory'
 
 export const collectPerpPosition = (
   mangoAccount: MangoAccount,

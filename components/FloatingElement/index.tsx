@@ -1,9 +1,9 @@
 import React, { FunctionComponent } from 'react'
 import styled from '@emotion/styled'
 import { LinkIcon } from '@heroicons/react/outline'
-import useMangoStore from '../../stores/useMangoStore'
-import { MoveIcon } from '../icons'
-import EmptyState from '../EmptyState'
+import useMangoStore from '~/stores/useMangoStore'
+import { MoveIcon } from '~/components/icons'
+import EmptyState from '~/components/EmptyState'
 
 const StyledDragWrapperContent = styled.div`
   transition: all 0.25s ease-in;

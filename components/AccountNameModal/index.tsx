@@ -1,15 +1,15 @@
 import { FunctionComponent, useState } from 'react'
-import useMangoStore from '../../stores/useMangoStore'
+import useMangoStore from '~/stores/useMangoStore'
 import {
   ExclamationCircleIcon,
   InformationCircleIcon,
 } from '@heroicons/react/outline'
-import Input from '../Input'
-import Button from '../Button'
-import Modal from '../Modal'
-import { ElementTitle } from '../styles'
-import Tooltip from '../Tooltip'
-import { notify } from '../../utils/notifications'
+import Input from '~/components/Input'
+import Button from '~/components/Button'
+import Modal from '~/components/Modal'
+import { ElementTitle } from '~/components/styles'
+import Tooltip from '~/components/Tooltip'
+import { notify } from '~/utils/notifications'
 
 interface AccountNameModalProps {
   accountName?: string

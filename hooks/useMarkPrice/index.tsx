@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import useMangoStore from '../../stores/useMangoStore'
+import useMangoStore from '~/stores/useMangoStore'
 
 function formatMarkPriceDecimals(price) {
   if (price) {

@@ -1,6 +1,6 @@
 import { FunctionComponent } from 'react'
 import { PerpMarket } from '@blockworks-foundation/mango-client'
-import useMangoStore from '../../../stores/useMangoStore'
+import useMangoStore from '~/stores/useMangoStore'
 
 interface OrderSideTabsProps {
   isSimpleForm?: boolean

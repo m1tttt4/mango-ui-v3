@@ -1,4 +1,4 @@
-import OpenOrdersTable from '../../OpenOrdersTable'
+import OpenOrdersTable from '~/OpenOrdersTable'
 
 const AccountOrders = () => {
   return (

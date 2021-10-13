@@ -5,11 +5,11 @@ import {
   ChartingLibraryWidgetOptions,
   IChartingLibraryWidget,
   ResolutionString,
-} from '../charting_library' // Make sure to follow step 1 of the README
-import { CHART_DATA_FEED } from '../../utils/chartDataConnector'
-import useMangoStore from '../../stores/useMangoStore'
-import { useViewport } from '../../hooks/useViewport'
-import { breakpoints } from '../TradePageGrid'
+} from '~/components/charting_library' // Make sure to follow step 1 of the README
+import { CHART_DATA_FEED } from '~/utils/chartDataConnector'
+import useMangoStore from '~/stores/useMangoStore'
+import { useViewport } from '~/hooks/useViewport'
+import { breakpoints } from '~/components/TradePageGrid'
 
 // This is a basic example of how to create a TV widget
 // You can add more feature such as storing charts in localStorage

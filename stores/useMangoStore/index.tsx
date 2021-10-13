@@ -22,15 +22,15 @@ import {
   PerpMarketLayout,
 } from '@blockworks-foundation/mango-client'
 import { AccountInfo, Commitment, Connection, PublicKey } from '@solana/web3.js'
-import { EndpointInfo, WalletAdapter } from '../../@types/types'
-import { isDefined, zipDict } from '../../utils'
-import { notify } from '../../utils/notifications'
-import { LAST_ACCOUNT_KEY } from '../../components/AccountsModal'
+import { EndpointInfo, WalletAdapter } from '~/@types/types'
+import { isDefined, zipDict } from '~/utils'
+import { notify } from '~/utils/notifications'
+import { LAST_ACCOUNT_KEY } from '~/components/AccountsModal'
 import {
   DEFAULT_MARKET_KEY,
   initialMarket,
   NODE_URL_KEY,
-} from '../../components/SettingsModal'
+} from '~/components/SettingsModal'
 
 export const ENDPOINTS: EndpointInfo[] = [
   {
