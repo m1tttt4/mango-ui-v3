@@ -25,11 +25,15 @@ import { AccountInfo, Commitment, Connection, PublicKey } from '@solana/web3.js'
 import { EndpointInfo, WalletAdapter } from '~/@types/types'
 import { isDefined, zipDict } from '~/utils/formatters'
 import { notify } from '~/utils/notifications'
-import {
-  DEFAULT_MARKET_KEY,
-  initialMarket,
-  NODE_URL_KEY,
-} from '~/components/SettingsModal'
+
+export const NODE_URL_KEY = 'node-url-key-0.4'
+export const DEFAULT_MARKET_KEY = 'defaultMarket'
+export const initialMarket = {
+  base: 'BTC',
+  kind: 'perp',
+  name: 'BTC-PERP',
+  path: '/perp/BTC',
+}
 
 export const ENDPOINTS: EndpointInfo[] = [
   {

@@ -5,7 +5,7 @@ import TopBar from '~/components/TopBar'
 import MarketSelect from '~/components/MarketSelect'
 import useLocalStorageState from '~/hooks/useLocalStorageState'
 import { PageBodyWrapper } from '~/components/styles'
-import { DEFAULT_MARKET_KEY, initialMarket } from '~/components/SettingsModal'
+import { DEFAULT_MARKET_KEY, initialMarket } from '~/stores/useMangoStore'
 import {
   breakpoints,
   defaultLayouts,

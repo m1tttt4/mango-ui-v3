@@ -5,7 +5,11 @@ import Modal from '~/components/Modal'
 import { ElementTitle } from '~/components/styles'
 import Button from '~/components/Button'
 import Input from '~/components/Input'
-import useMangoStore from '~/stores/useMangoStore'
+import useMangoStore, {
+  NODE_URL_KEY,
+  DEFAULT_MARKET_KEY,
+  initialMarket,
+} from '~/stores/useMangoStore'
 import useLocalStorageState from '~/hooks/useLocalStorageState'
 import Select from '~/components/Select'
 
@@ -23,15 +27,6 @@ const NODE_URLS = [
 ]
 
 const CUSTOM_NODE = NODE_URLS.find((n) => n.label === 'Custom')
-
-export const NODE_URL_KEY = 'node-url-key-0.4'
-export const DEFAULT_MARKET_KEY = 'defaultMarket'
-export const initialMarket = {
-  base: 'BTC',
-  kind: 'perp',
-  name: 'BTC-PERP',
-  path: '/perp/BTC',
-}
 
 const SettingsModal = ({ isOpen, onClose }) => {
   const [settingsView, setSettingsView] = useState('')

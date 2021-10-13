@@ -4,11 +4,13 @@ import { abbreviateAddress } from '~/utils/formatters'
 import useLocalStorageState from '~/hooks/useLocalStorageState'
 import MenuItem from '~/components/MenuItem'
 import ThemeSwitch from '~/components/ThemeSwitch'
-import useMangoStore from '~/stores/useMangoStore'
+import useMangoStore, {
+  DEFAULT_MARKET_KEY,
+  initialMarket,
+} from '~/stores/useMangoStore'
 import ConnectWalletButton from '~/components/ConnectWalletButton'
 import NavDropMenu from '~/components/NavDropMenu'
 import AccountsModal from '~/components/AccountsModal'
-import { DEFAULT_MARKET_KEY, initialMarket } from '~/components/SettingsModal'
 
 const TopBar = () => {
   const mangoAccount = useMangoStore((s) => s.selectedMangoAccount.current)
