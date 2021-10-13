@@ -8,7 +8,7 @@ import {
 } from '@blockworks-foundation/mango-client'
 import { notify } from '~/utils/notifications'
 import { calculateTradePrice, getDecimalCount, sleep } from '~/utils'
-import { floorToDecimal } from '~/utils/index'
+import { floorToDecimal } from '~/utils'
 import useMangoStore from '~/stores/useMangoStore'
 import Button from '~/components/Button'
 import Input from '~/components/Input'

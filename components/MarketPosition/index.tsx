@@ -1,7 +1,7 @@
 import { useCallback, useMemo, useState } from 'react'
 import { ElementTitle } from '~/components/styles'
 import useMangoStore from '~/stores/useMangoStore'
-import { formatUsdValue } from '~/utils/index'
+import { formatUsdValue } from '~/utils'
 import Button, { LinkButton } from '~/components/Button'
 import Tooltip from '~/components/Tooltip'
 import PerpSideBadge from '~/components/PerpSideBadge'

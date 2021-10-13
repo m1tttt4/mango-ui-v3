@@ -1,10 +1,10 @@
 import { I80F48 } from '@blockworks-foundation/mango-client'
-import Chart from '~/Chart'
+import Chart from '~/components/Chart'
 import { tokenPrecision } from '~/utils'
 import { useViewport } from '~/hooks/useViewport'
-import { breakpoints } from '~/TradePageGrid'
-import { Table, Td, Th, TrBody, TrHead } from '~/TableElements'
-import { ExpandableRow, Row } from '~/TableElements'
+import { breakpoints } from '~/components/TradePageGrid'
+import { Table, Td, Th, TrBody, TrHead } from '~/components/TableElements'
+import { ExpandableRow, Row } from '~/components/TableElements'
 
 function formatNumberString(x: number, decimals): string {
   return new Intl.NumberFormat('en-US', {

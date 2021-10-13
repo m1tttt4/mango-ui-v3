@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react'
 import Link from 'next/link'
-import { abbreviateAddress } from '~/utils/index'
+import { abbreviateAddress } from '~/utils'
 import useLocalStorageState from '~/hooks/useLocalStorageState'
 import MenuItem from '~/components/MenuItem'
 import ThemeSwitch from '~/components/ThemeSwitch'

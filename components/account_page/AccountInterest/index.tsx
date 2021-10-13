@@ -1,7 +1,7 @@
 import { getTokenBySymbol } from '@blockworks-foundation/mango-client'
 import { useEffect, useState } from 'react'
 import useMangoStore from '~/stores/useMangoStore'
-import { Table, Td, Th, TrBody, TrHead } from '~/TableElements'
+import { Table, Td, Th, TrBody, TrHead } from '~/components/TableElements'
 
 interface InterestStats {
   [key: string]: {

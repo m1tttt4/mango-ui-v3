@@ -14,7 +14,7 @@ import { Table, Td, Th, TrBody, TrHead } from '~/components/TableElements'
 import { useViewport } from '~/hooks/useViewport'
 import { breakpoints } from '~/components/TradePageGrid'
 import { Row } from '~/components/TableElements'
-import { PerpTriggerOrder } from '~/components/@types/types'
+import { PerpTriggerOrder } from '~/@types/types'
 
 const DesktopTable = ({ openOrders, cancelledOrderId, handleCancelOrder }) => {
   return (

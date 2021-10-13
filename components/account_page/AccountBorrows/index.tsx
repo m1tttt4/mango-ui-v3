@@ -11,15 +11,15 @@ import {
   formatUsdValue,
   i80f48ToPercent,
   tokenPrecision,
-} from '~/utils/index'
-import WithdrawModal from '~/WithdrawModal'
-import Button from '~/Button'
-import DepositModal from '~/DepositModal'
+} from '~/utils'
+import WithdrawModal from '~/components/WithdrawModal'
+import Button from '~/components/Button'
+import DepositModal from '~/components/DepositModal'
 import { useViewport } from '~/hooks/useViewport'
-import { breakpoints } from '~/TradePageGrid'
-import { Table, Td, Th, TrBody, TrHead } from '~/TableElements'
-import { ExpandableRow } from '~/TableElements'
-import MobileTableHeader from '~/mobile/MobileTableHeader'
+import { breakpoints } from '~/components/TradePageGrid'
+import { Table, Td, Th, TrBody, TrHead } from '~/components/TableElements'
+import { ExpandableRow } from '~/components/TableElements'
+import MobileTableHeader from '~/components/mobile/MobileTableHeader'
 
 export default function AccountBorrows() {
   const balances = useBalances()

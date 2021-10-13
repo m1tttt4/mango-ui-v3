@@ -2,7 +2,7 @@ import { PerpMarket } from '@blockworks-foundation/mango-client'
 import { useState } from 'react'
 import useMangoGroupConfig from '~/hooks/useMangoGroupConfig'
 import useMangoStore from '~/stores/useMangoStore'
-import Chart from '~/Chart'
+import Chart from '~/components/Chart'
 import BN from 'bn.js'
 import { tokenPrecision } from '~/utils'
 
