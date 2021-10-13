@@ -11,7 +11,7 @@ import useOraclePrice from '~/hooks/useOraclePrice'
 import { formatUsdValue } from '~/utils/formatters'
 import { useRouter } from 'next/router'
 import { ViewportProvider } from '~/hooks/useViewport'
-import BottomBar from '~/components/mobile/BottomBar'
+import BottomBar from '~/components/BottomBar'
 
 function App({ Component, pageProps }) {
   useHydrateStore()

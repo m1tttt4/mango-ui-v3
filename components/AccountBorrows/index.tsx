@@ -19,7 +19,7 @@ import { useViewport } from '~/hooks/useViewport'
 import { breakpoints } from '~/components/TradePageGrid'
 import { Table, Td, Th, TrBody, TrHead } from '~/components/TableElements'
 import { ExpandableRow } from '~/components/TableElements'
-import MobileTableHeader from '~/components/mobile/MobileTableHeader'
+import MobileTableHeader from '~/components/MobileTableHeader'
 
 export default function AccountBorrows() {
   const balances = useBalances()

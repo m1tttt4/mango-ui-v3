@@ -19,7 +19,7 @@ import { useSortableData } from '~/hooks/useSortableData'
 import DepositModal from '~/components/DepositModal'
 import WithdrawModal from '~/components/WithdrawModal'
 import { ExpandableRow } from '~/components/TableElements'
-import MobileTableHeader from '~/components/mobile/MobileTableHeader'
+import MobileTableHeader from '~/components/MobileTableHeader'
 
 const BalancesTable = ({ showZeroBalances = false }) => {
   const [showDepositModal, setShowDepositModal] = useState(false)

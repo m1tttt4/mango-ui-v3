@@ -5,7 +5,7 @@ import { XIcon } from '@heroicons/react/outline'
 import useMangoStore from '~/stores/useMangoStore'
 import { getWeights, PerpMarket } from '@blockworks-foundation/mango-client'
 import { CandlesIcon } from '~/components/icons'
-import SwipeableTabs from '~/components/mobile/SwipeableTabs'
+import SwipeableTabs from '~/components/SwipeableTabs'
 import AdvancedTradeForm from '~/components/trade_form/AdvancedTradeForm'
 import Orderbook from '~/components/Orderbook'
 import MarketBalances from '~/components/MarketBalances'
@@ -14,7 +14,7 @@ import MarketPosition from '~/components/MarketPosition'
 import OpenOrdersTable from '~/components/OpenOrdersTable'
 import RecentMarketTrades from '~/components/RecentMarketTrades'
 import FloatingElement from '~/components/FloatingElement'
-import Swipeable from '~/components/mobile/Swipeable'
+import Swipeable from '~/components/Swipeable'
 
 const TVChartContainer = dynamic(
   () => import('~/components/TradingView/index'),
