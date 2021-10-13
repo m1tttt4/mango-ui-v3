@@ -1,4 +1,4 @@
-import { percentFormat } from '~/utils/formatters'
+import { percentFormat } from '~/stores/useMangoStore/formatters'
 import useSrmAccount from '~/hooks/useSrmAccount'
 import { SRM_DECIMALS } from '@project-serum/serum/lib/token-instructions'
 import Tooltip from '~/components/Tooltip'

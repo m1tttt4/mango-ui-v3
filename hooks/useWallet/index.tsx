@@ -2,7 +2,7 @@ import { useEffect, useMemo } from 'react'
 import Wallet from '@project-serum/sol-wallet-adapter'
 import useLocalStorageState from '~/hooks/useLocalStorageState'
 import useMangoStore from '~/stores/useMangoStore'
-import { notify } from '~/utils/notifications'
+import { notify } from '~/stores/useMangoStore/notifications'
 import {
   PhantomWalletAdapter,
   SlopeWalletAdapter,

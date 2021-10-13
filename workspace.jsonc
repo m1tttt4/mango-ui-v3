@@ -4,16 +4,10 @@
     "name": "mango-ui-v3-workspace",
     "icon": "https://static.bit.dev/bit-logo.svg",
     "defaultDirectory": "{scope}/{name}",
-    "defaultScope": "m4tt4ew.soce",
-    "resolveModules": {
-      "modulesDirectories": ["components", "utils", "stores", "hooks", "."],
-      "aliases": {
-        "~": "."
-      }
-    }
+    "defaultScope": "m4tt4ew.soce"
   },
   "teambit.dependencies/dependency-resolver": {
-    "packageManager": "teambit.dependencies/pnpm",
+    "packageManager": "teambit.dependencies/yarn",
     "policy": {
       "dependencies": {},
       "peerDependencies": {

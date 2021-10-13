@@ -1,5 +1,5 @@
 import useFees from '~/hooks/useFees'
-import { percentFormat } from '~/utils/formatters'
+import { percentFormat } from '~/stores/useMangoStore/formatters'
 
 export default function MarketFee() {
   const { takerFee, makerFee } = useFees()

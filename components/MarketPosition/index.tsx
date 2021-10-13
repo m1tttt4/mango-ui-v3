@@ -1,7 +1,7 @@
 import { useCallback, useMemo, useState } from 'react'
 import { ElementTitle } from '~/components/styles'
 import useMangoStore from '~/stores/useMangoStore'
-import { formatUsdValue } from '~/utils/formatters'
+import { formatUsdValue } from '~/stores/useMangoStore/formatters'
 import Button, { LinkButton } from '~/components/Button'
 import Tooltip from '~/components/Tooltip'
 import PerpSideBadge from '~/components/PerpSideBadge'
@@ -12,7 +12,7 @@ import {
   QUOTE_INDEX,
 } from '@blockworks-foundation/mango-client'
 import useTradeHistory from '~/hooks/useTradeHistory'
-import { notify } from '~/utils/notifications'
+import { notify } from '~/stores/useMangoStore/notifications'
 import MarketCloseModal from '~/components/MarketCloseModal'
 import PnlText from '~/components/PnlText'
 import Loading from '~/components/Loading'

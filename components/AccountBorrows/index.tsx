@@ -11,7 +11,7 @@ import {
   formatUsdValue,
   i80f48ToPercent,
   tokenPrecision,
-} from '~/utils/formatters'
+} from '~/stores/useMangoStore/formatters'
 import WithdrawModal from '~/components/WithdrawModal'
 import Button from '~/components/Button'
 import DepositModal from '~/components/DepositModal'

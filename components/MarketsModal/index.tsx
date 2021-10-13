@@ -5,7 +5,7 @@ import { ChevronRightIcon } from '@heroicons/react/solid'
 import Modal from '~/components/Modal'
 import useLocalStorageState from '~/hooks/useLocalStorageState'
 import useMangoStore from '~/stores/useMangoStore'
-import { formatUsdValue } from '~/utils/formatters'
+import { formatUsdValue } from '~/stores/useMangoStore/formatters'
 import { LinkButton } from '~/components/Button'
 
 const MarketsModal = ({

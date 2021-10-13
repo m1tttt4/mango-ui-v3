@@ -4,7 +4,7 @@ import useMangoGroupConfig from '~/hooks/useMangoGroupConfig'
 import useMangoStore from '~/stores/useMangoStore'
 import Chart from '~/components/Chart'
 import BN from 'bn.js'
-import { tokenPrecision } from '~/utils/formatters'
+import { tokenPrecision } from '~/stores/useMangoStore/formatters'
 
 const icons = {
   'BTC-PERP': '/assets/icons/btc.svg',

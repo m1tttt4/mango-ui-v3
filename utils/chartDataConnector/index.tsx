@@ -1,4 +1,4 @@
-import { ChartTradeType } from '~/@types/types'
+import { ChartTradeType } from '@m4tt4ew/soce.use-mango-store/@types/types'
 
 const baseUrl = 'https://serum-history.herokuapp.com'
 export default class ChartApi {

@@ -1,4 +1,4 @@
-import { formatUsdValue } from '~/utils/formatters'
+import { formatUsdValue } from '~/stores/useMangoStore/formatters'
 
 const PnlText = ({ className, pnl }: { className?: string; pnl?: number }) => (
   <>

@@ -2,9 +2,9 @@ import { FunctionComponent, useEffect, useRef, useState } from 'react'
 import useMangoStore from '~/stores/useMangoStore'
 import { PerpMarket, ZERO_BN } from '@blockworks-foundation/mango-client'
 import Button, { LinkButton } from '~/components/Button'
-import { notify } from '~/utils/notifications'
+import { notify } from '~/stores/useMangoStore/notifications'
 import Loading from '~/components/Loading'
-import { sleep } from '~/utils/formatters'
+import { sleep } from '~/stores/useMangoStore/formatters'
 import Modal from '~/components/Modal'
 
 interface MarketCloseModalProps {
