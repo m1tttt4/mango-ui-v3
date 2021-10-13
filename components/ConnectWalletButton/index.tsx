@@ -13,10 +13,7 @@ import {
   PROVIDER_LOCAL_STORAGE_KEY,
 } from '~/hooks/useWallet'
 import useLocalStorageState from '~/hooks/useLocalStorageState'
-import {
-  abbreviateAddress,
-  copyToClipboard,
-} from '~/stores/useMangoStore/formatters'
+import { abbreviateAddress, copyToClipboard } from '~/utils/formatters'
 import WalletSelect from '~/components/WalletSelect'
 import { WalletIcon, ProfileIcon } from '~/components/icons'
 import AccountsModal from '~/components/AccountsModal'

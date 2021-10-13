@@ -9,7 +9,7 @@ import Button from '~/components/Button'
 import Modal from '~/components/Modal'
 import { ElementTitle } from '~/components/styles'
 import Tooltip from '~/components/Tooltip'
-import { notify } from '~/stores/useMangoStore/notifications'
+import { notify } from '~/utils/notifications'
 
 interface AccountNameModalProps {
   accountName?: string

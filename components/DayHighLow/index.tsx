@@ -1,4 +1,4 @@
-import { formatUsdValue } from '~/stores/useMangoStore/formatters'
+import { formatUsdValue } from '~/utils/formatters'
 import { MarketDataLoader } from '~/components/MarketDetails'
 
 const DayHighLow = ({ high, low, latest }) => {

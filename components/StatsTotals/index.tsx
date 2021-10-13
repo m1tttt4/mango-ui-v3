@@ -1,6 +1,6 @@
 import { I80F48 } from '@blockworks-foundation/mango-client'
 import Chart from '~/components/Chart'
-import { tokenPrecision } from '~/stores/useMangoStore/formatters'
+import { tokenPrecision } from '~/utils/formatters'
 import { useViewport } from '~/hooks/useViewport'
 import { breakpoints } from '~/components/TradePageGrid'
 import { Table, Td, Th, TrBody, TrHead } from '~/components/TableElements'

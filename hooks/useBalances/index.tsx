@@ -6,7 +6,7 @@ import {
   QUOTE_INDEX,
 } from '@blockworks-foundation/mango-client'
 import useMangoStore from '~/stores/useMangoStore'
-import { i80f48ToPercent } from '~/stores/useMangoStore/formatters'
+import { i80f48ToPercent } from '~/utils/formatters'
 import { sumBy } from 'lodash'
 import { I80F48 } from '@blockworks-foundation/mango-client/lib/src/fixednum'
 

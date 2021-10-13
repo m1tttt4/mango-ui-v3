@@ -1,6 +1,6 @@
 import { MangoAccount, TokenAccount } from '@blockworks-foundation/mango-client'
 import { PublicKey } from '@solana/web3.js'
-import useMangoStore from '@m4tt4ew/soce.use-mango-store'
+import useMangoStore from '~/stores/useMangoStore'
 
 export async function deposit({
   amount,

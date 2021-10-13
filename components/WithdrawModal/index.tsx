@@ -3,10 +3,7 @@ import Modal from '~/components/Modal'
 import Input from '~/components/Input'
 import { ElementTitle } from '~/components/styles'
 import useMangoStore from '~/stores/useMangoStore'
-import {
-  floorToDecimal,
-  tokenPrecision,
-} from '~/stores/useMangoStore/formatters'
+import { floorToDecimal, tokenPrecision } from '~/utils/formatters'
 import Loading from '~/components/Loading'
 import Slider from '~/components/Slider'
 import Button, { LinkButton } from '~/components/Button'
@@ -30,7 +27,7 @@ import {
   MangoAccount,
   nativeI80F48ToUi,
 } from '@blockworks-foundation/mango-client'
-import { notify } from '~/stores/useMangoStore/notifications'
+import { notify } from '~/utils/notifications'
 
 interface WithdrawModalProps {
   onClose: () => void

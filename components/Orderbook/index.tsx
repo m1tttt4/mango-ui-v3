@@ -3,11 +3,7 @@ import styled from '@emotion/styled'
 import Big from 'big.js'
 import useInterval from '~/hooks/useInterval'
 import usePrevious from '~/hooks/usePrevious'
-import {
-  isEqual,
-  getDecimalCount,
-  usdFormatter,
-} from '~/stores/useMangoStore/formatters'
+import { isEqual, getDecimalCount, usdFormatter } from '~/utils/formatters'
 import {
   ArrowUpIcon,
   ArrowDownIcon,

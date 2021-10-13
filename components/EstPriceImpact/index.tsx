@@ -1,7 +1,7 @@
 import { InformationCircleIcon } from '@heroicons/react/outline'
 import Tippy from '@tippyjs/react'
 import 'tippy.js/animations/scale.css'
-import { percentFormat } from '~/stores/useMangoStore/formatters'
+import { percentFormat } from '~/utils/formatters'
 
 const EstPriceImpact = ({
   priceImpact,

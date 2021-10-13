@@ -11,12 +11,12 @@ import {
   getSymbolForTokenMintAddress,
   trimDecimals,
   sleep,
-} from '~/stores/useMangoStore/formatters'
+} from '~/utils/formatters'
 import Loading from '~/components/Loading'
 import Button from '~/components/Button'
 import Slider from '~/components/Slider'
 import Tooltip from '~/components/Tooltip'
-import { notify } from '~/stores/useMangoStore/notifications'
+import { notify } from '~/utils/notifications'
 import { deposit } from '~/utils/mango'
 
 interface NewAccountProps {

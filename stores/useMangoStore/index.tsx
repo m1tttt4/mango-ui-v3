@@ -22,9 +22,9 @@ import {
   PerpMarketLayout,
 } from '@blockworks-foundation/mango-client'
 import { AccountInfo, Commitment, Connection, PublicKey } from '@solana/web3.js'
-import { EndpointInfo, WalletAdapter } from './@types/types'
-import { isDefined, zipDict } from './formatters'
-import { notify } from './notifications'
+import { EndpointInfo, WalletAdapter } from '~/@types/types'
+import { isDefined, zipDict } from '~/utils/formatters'
+import { notify } from '~/utils/notifications'
 
 export const NODE_URL_KEY = 'node-url-key-0.4'
 export const DEFAULT_MARKET_KEY = 'defaultMarket'

@@ -2,7 +2,7 @@ import { useCallback } from 'react'
 import { useBalances } from '~/hooks/useBalances'
 import useMangoStore from '~/stores/useMangoStore'
 import Button, { LinkButton } from '~/components/Button'
-import { notify } from '~/stores/useMangoStore/notifications'
+import { notify } from '~/utils/notifications'
 import { ArrowSmDownIcon, ExclamationIcon } from '@heroicons/react/outline'
 import { Market } from '@project-serum/serum'
 import {
@@ -13,10 +13,7 @@ import { useState } from 'react'
 import Loading from '~/components/Loading'
 import { useViewport } from '~/hooks/useViewport'
 import { breakpoints } from '~/components/TradePageGrid'
-import {
-  floorToDecimal,
-  formatUsdValue,
-} from '~/stores/useMangoStore/formatters'
+import { floorToDecimal, formatUsdValue } from '~/utils/formatters'
 import { Table, Td, Th, TrBody, TrHead } from '~/components/TableElements'
 import { useSortableData } from '~/hooks/useSortableData'
 import DepositModal from '~/components/DepositModal'

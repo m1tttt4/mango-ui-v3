@@ -3,7 +3,7 @@ import { Table, Thead, Tbody, Tr, Th, Td } from 'react-super-responsive-table'
 import { InformationCircleIcon } from '@heroicons/react/outline'
 import useMangoStore from '~/stores/useMangoStore'
 import { useBalances } from '~/hooks/useBalances'
-import { tokenPrecision } from '~/stores/useMangoStore/formatters'
+import { tokenPrecision } from '~/utils/formatters'
 import DepositModal from '~/components/DepositModal'
 import WithdrawModal from '~/components/WithdrawModal'
 import Button from '~/components/Button'
@@ -14,7 +14,7 @@ import {
   I80F48,
   PerpMarket,
 } from '@blockworks-foundation/mango-client'
-import { notify } from '~/stores/useMangoStore/notifications'
+import { notify } from '~/utils/notifications'
 
 export default function AccountAssets() {
   const balances = useBalances()

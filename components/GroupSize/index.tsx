@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react'
 import { Listbox } from '@headlessui/react'
 import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/solid'
-import { isEqual } from '~/stores/useMangoStore/formatters'
+import { isEqual } from '~/utils/formatters'
 
 const GroupSize = ({ tickSize, value, onChange, className = '' }) => {
   const sizes = useMemo(

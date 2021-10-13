@@ -1,10 +1,7 @@
 import EventEmitter from 'eventemitter3'
 import { PublicKey, Transaction } from '@solana/web3.js'
-import { notify } from '@m4tt4ew/soce.use-mango-store/notifications'
-import {
-  DEFAULT_PUBLIC_KEY,
-  WalletAdapter,
-} from '@m4tt4ew/soce.use-mango-store/@types/types'
+import { notify } from '~/utils/notifications'
+import { DEFAULT_PUBLIC_KEY, WalletAdapter } from '~/@types/types'
 
 type PhantomEvent = 'disconnect' | 'connect'
 type PhantomRequestMethod =

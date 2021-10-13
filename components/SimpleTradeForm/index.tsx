@@ -6,13 +6,9 @@ import {
   I80F48,
   PerpMarket,
 } from '@blockworks-foundation/mango-client'
-import { notify } from '~/stores/useMangoStore/notifications'
-import {
-  calculateTradePrice,
-  getDecimalCount,
-  sleep,
-} from '~/stores/useMangoStore/formatters'
-import { floorToDecimal } from '~/stores/useMangoStore/formatters'
+import { notify } from '~/utils/notifications'
+import { calculateTradePrice, getDecimalCount, sleep } from '~/utils/formatters'
+import { floorToDecimal } from '~/utils/formatters'
 import useMangoStore from '~/stores/useMangoStore'
 import Button from '~/components/Button'
 import Input from '~/components/Input'

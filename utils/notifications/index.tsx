@@ -1,4 +1,4 @@
-import useMangoStore from '../'
+import useMangoStore from '~/stores/useMangoStore'
 
 export function notify(newNotification: {
   type?: 'success' | 'info' | 'error'

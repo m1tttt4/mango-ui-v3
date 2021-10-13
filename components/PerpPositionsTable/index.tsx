@@ -6,7 +6,7 @@ import Button from '~/components/Button'
 import { useViewport } from '~/hooks/useViewport'
 import { breakpoints } from '~/components/TradePageGrid'
 import { Table, Td, Th, TrBody, TrHead } from '~/components/TableElements'
-import { formatUsdValue } from '~/stores/useMangoStore/formatters'
+import { formatUsdValue } from '~/utils/formatters'
 import Loading from '~/components/Loading'
 
 import usePerpPositions from '~/hooks/usePerpPositions'

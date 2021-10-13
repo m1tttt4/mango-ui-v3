@@ -2,7 +2,7 @@ import { I80F48 } from '@blockworks-foundation/mango-client/lib/src/fixednum'
 import { TOKEN_MINTS } from '@project-serum/serum'
 import { PublicKey } from '@solana/web3.js'
 import BN from 'bn.js'
-import { Orderbook, TRIGGER_ORDER_TYPES } from '../'
+import { Orderbook, TRIGGER_ORDER_TYPES } from '~/stores/useMangoStore'
 
 export async function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms))

@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { Listbox } from '@headlessui/react'
 import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/solid'
-import { abbreviateAddress } from '~/stores/useMangoStore/formatters'
+import { abbreviateAddress } from '~/utils/formatters'
 import useMangoStore, { WalletToken } from '~/stores/useMangoStore'
 import { RefreshClockwiseIcon } from '~/components/icons'
 import useMangoGroupConfig from '~/hooks/useMangoGroupConfig'

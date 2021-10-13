@@ -1,9 +1,6 @@
 import { ElementTitle } from '~/components/styles'
 import useMangoStore from '~/stores/useMangoStore'
-import {
-  i80f48ToPercent,
-  floorToDecimal,
-} from '~/stores/useMangoStore/formatters'
+import { i80f48ToPercent, floorToDecimal } from '~/utils/formatters'
 import Tooltip from '~/components/Tooltip'
 import {
   getMarketIndexBySymbol,
