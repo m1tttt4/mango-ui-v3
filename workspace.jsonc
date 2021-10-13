@@ -6,13 +6,20 @@
     "defaultDirectory": "{scope}/{name}",
     "defaultScope": "m4tt4ew.soce",
     "resolveModules": {
+      "modulesDirectories": [
+        "components",
+        "utils",
+        "stores",
+        "hooks",
+        "."
+      ],
       "aliases": {
-        "~/*": "./*"
+        "~": "."
       }
     }
   },
   "teambit.dependencies/dependency-resolver": {
-    "packageManager": "teambit.dependencies/yarn",
+    "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {},
       "peerDependencies": {

@@ -10,7 +10,10 @@ import {
 import { notify } from '~/utils/notifications'
 import { calculateTradePrice, getDecimalCount } from '~/utils/formatters'
 import { floorToDecimal } from '~/utils/formatters'
-import useMangoStore, { Orderbook } from '~/stores/useMangoStore'
+import useMangoStore, {
+  Orderbook,
+  TRIGGER_ORDER_TYPES,
+} from '~/stores/useMangoStore'
 import Button from '~/components/Button'
 import TradeType from '~/components/TradeType'
 import Input from '~/components/Input'
@@ -28,12 +31,6 @@ import { breakpoints } from '~/components/TradePageGrid'
 import EstPriceImpact from '~/components/EstPriceImpact'
 import useFees from '~/hooks/useFees'
 
-export const TRIGGER_ORDER_TYPES = [
-  'Stop Loss',
-  'Take Profit',
-  'Stop Limit',
-  'Take Profit Limit',
-]
 interface AdvancedTradeFormProps {
   initLeverage?: number
 }

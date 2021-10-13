@@ -2841,9 +2841,270 @@ __metadata:
   languageName: node
   linkType: hard
 
+"AccountAssets-be9ffe@workspace:components/AccountAssets":
+  version: 0.0.0-use.local
+  resolution: "AccountAssets-be9ffe@workspace:components/AccountAssets"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"AccountBorrows-726324@workspace:components/AccountBorrows":
+  version: 0.0.0-use.local
+  resolution: "AccountBorrows-726324@workspace:components/AccountBorrows"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"AccountHistory-be3905@workspace:components/AccountHistory":
+  version: 0.0.0-use.local
+  resolution: "AccountHistory-be3905@workspace:components/AccountHistory"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"AccountInfo-d9e7c0@workspace:components/AccountInfo":
+  version: 0.0.0-use.local
+  resolution: "AccountInfo-d9e7c0@workspace:components/AccountInfo"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"AccountInterest-3edf68@workspace:components/AccountInterest":
+  version: 0.0.0-use.local
+  resolution: "AccountInterest-3edf68@workspace:components/AccountInterest"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"AccountNameModal-64c77e@workspace:components/AccountNameModal":
+  version: 0.0.0-use.local
+  resolution: "AccountNameModal-64c77e@workspace:components/AccountNameModal"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"AccountOrders-faa7d4@workspace:components/AccountOrders":
+  version: 0.0.0-use.local
+  resolution: "AccountOrders-faa7d4@workspace:components/AccountOrders"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"AccountOverview-79ef7a@workspace:components/AccountOverview":
+  version: 0.0.0-use.local
+  resolution: "AccountOverview-79ef7a@workspace:components/AccountOverview"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"AccountSelect-8a106f@workspace:components/AccountSelect":
+  version: 0.0.0-use.local
+  resolution: "AccountSelect-8a106f@workspace:components/AccountSelect"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"AccountsModal-da610a@workspace:components/AccountsModal":
+  version: 0.0.0-use.local
+  resolution: "AccountsModal-da610a@workspace:components/AccountsModal"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"AdvancedTradeForm-3e750f@workspace:components/AdvancedTradeForm":
+  version: 0.0.0-use.local
+  resolution: "AdvancedTradeForm-3e750f@workspace:components/AdvancedTradeForm"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"AlphaModal-618435@workspace:components/AlphaModal":
+  version: 0.0.0-use.local
+  resolution: "AlphaModal-618435@workspace:components/AlphaModal"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"BalancesTable-147cfb@workspace:components/BalancesTable":
+  version: 0.0.0-use.local
+  resolution: "BalancesTable-147cfb@workspace:components/BalancesTable"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"BottomBar-a84b08@workspace:components/BottomBar":
+  version: 0.0.0-use.local
+  resolution: "BottomBar-a84b08@workspace:components/BottomBar"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "Button-91f1e4@workspace:components/Button":
   version: 0.0.0-use.local
   resolution: "Button-91f1e4@workspace:components/Button"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"ButtonGroup-fbd122@workspace:components/ButtonGroup":
+  version: 0.0.0-use.local
+  resolution: "ButtonGroup-fbd122@workspace:components/ButtonGroup"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"Chart-dbf736@workspace:components/Chart":
+  version: 0.0.0-use.local
+  resolution: "Chart-dbf736@workspace:components/Chart"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"Checkbox-396165@workspace:components/Checkbox":
+  version: 0.0.0-use.local
+  resolution: "Checkbox-396165@workspace:components/Checkbox"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"ConnectWalletButton-de054f@workspace:components/ConnectWalletButton":
+  version: 0.0.0-use.local
+  resolution: "ConnectWalletButton-de054f@workspace:components/ConnectWalletButton"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"DayHighLow-68de64@workspace:components/DayHighLow":
+  version: 0.0.0-use.local
+  resolution: "DayHighLow-68de64@workspace:components/DayHighLow"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"DepositModal-b0d304@workspace:components/DepositModal":
+  version: 0.0.0-use.local
+  resolution: "DepositModal-b0d304@workspace:components/DepositModal"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"DepositWithdraw-8970ba@workspace:components/DepositWithdraw":
+  version: 0.0.0-use.local
+  resolution: "DepositWithdraw-8970ba@workspace:components/DepositWithdraw"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"DropMenu-e261ec@workspace:components/DropMenu":
+  version: 0.0.0-use.local
+  resolution: "DropMenu-e261ec@workspace:components/DropMenu"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"EmptyState-042819@workspace:components/EmptyState":
+  version: 0.0.0-use.local
+  resolution: "EmptyState-042819@workspace:components/EmptyState"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"EstPriceImpact-404782@workspace:components/EstPriceImpact":
+  version: 0.0.0-use.local
+  resolution: "EstPriceImpact-404782@workspace:components/EstPriceImpact"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"FeeDiscountsTable-e1385e@workspace:components/FeeDiscountsTable":
+  version: 0.0.0-use.local
+  resolution: "FeeDiscountsTable-e1385e@workspace:components/FeeDiscountsTable"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"FlipCard-081d90@workspace:components/FlipCard":
+  version: 0.0.0-use.local
+  resolution: "FlipCard-081d90@workspace:components/FlipCard"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"FloatingElement-cde6f6@workspace:components/FloatingElement":
+  version: 0.0.0-use.local
+  resolution: "FloatingElement-cde6f6@workspace:components/FloatingElement"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"GroupSize-20a1a9@workspace:components/GroupSize":
+  version: 0.0.0-use.local
+  resolution: "GroupSize-20a1a9@workspace:components/GroupSize"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"InlineNotification-95e09c@workspace:components/InlineNotification":
+  version: 0.0.0-use.local
+  resolution: "InlineNotification-95e09c@workspace:components/InlineNotification"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
@@ -2871,6 +3132,159 @@ __metadata:
   languageName: node
   linkType: hard
 
+"LeverageSlider-e72a6f@workspace:components/LeverageSlider":
+  version: 0.0.0-use.local
+  resolution: "LeverageSlider-e72a6f@workspace:components/LeverageSlider"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"Loading-e666e8@workspace:components/Loading":
+  version: 0.0.0-use.local
+  resolution: "Loading-e666e8@workspace:components/Loading"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"MangoAccountSelect-05c83d@workspace:components/MangoAccountSelect":
+  version: 0.0.0-use.local
+  resolution: "MangoAccountSelect-05c83d@workspace:components/MangoAccountSelect"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"MangoIcon-07c14a@workspace:components/MangoIcon":
+  version: 0.0.0-use.local
+  resolution: "MangoIcon-07c14a@workspace:components/MangoIcon"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"ManualRefresh-c7422d@workspace:components/ManualRefresh":
+  version: 0.0.0-use.local
+  resolution: "ManualRefresh-c7422d@workspace:components/ManualRefresh"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"MarketBalances-e94f63@workspace:components/MarketBalances":
+  version: 0.0.0-use.local
+  resolution: "MarketBalances-e94f63@workspace:components/MarketBalances"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"MarketCloseModal-d2f04a@workspace:components/MarketCloseModal":
+  version: 0.0.0-use.local
+  resolution: "MarketCloseModal-d2f04a@workspace:components/MarketCloseModal"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"MarketDetails-93bcb7@workspace:components/MarketDetails":
+  version: 0.0.0-use.local
+  resolution: "MarketDetails-93bcb7@workspace:components/MarketDetails"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"MarketFee-ebae5a@workspace:components/MarketFee":
+  version: 0.0.0-use.local
+  resolution: "MarketFee-ebae5a@workspace:components/MarketFee"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"MarketMenuItem-103b69@workspace:components/MarketMenuItem":
+  version: 0.0.0-use.local
+  resolution: "MarketMenuItem-103b69@workspace:components/MarketMenuItem"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"MarketPosition-cd2302@workspace:components/MarketPosition":
+  version: 0.0.0-use.local
+  resolution: "MarketPosition-cd2302@workspace:components/MarketPosition"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"MarketSelect-544978@workspace:components/MarketSelect":
+  version: 0.0.0-use.local
+  resolution: "MarketSelect-544978@workspace:components/MarketSelect"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"MarketsModal-fe6a2e@workspace:components/MarketsModal":
+  version: 0.0.0-use.local
+  resolution: "MarketsModal-fe6a2e@workspace:components/MarketsModal"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"MenuItem-8cc8ba@workspace:components/MenuItem":
+  version: 0.0.0-use.local
+  resolution: "MenuItem-8cc8ba@workspace:components/MenuItem"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"MobileMenu-d32401@workspace:components/MobileMenu":
+  version: 0.0.0-use.local
+  resolution: "MobileMenu-d32401@workspace:components/MobileMenu"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"MobileTableHeader-ee459d@workspace:components/MobileTableHeader":
+  version: 0.0.0-use.local
+  resolution: "MobileTableHeader-ee459d@workspace:components/MobileTableHeader"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"MobileTradePage-bd8536@workspace:components/MobileTradePage":
+  version: 0.0.0-use.local
+  resolution: "MobileTradePage-bd8536@workspace:components/MobileTradePage"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "Modal-03a585@workspace:components/Modal":
   version: 0.0.0-use.local
   resolution: "Modal-03a585@workspace:components/Modal"
@@ -2880,9 +3294,351 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"NavDropMenu-ee29e7@workspace:components/NavDropMenu":
+  version: 0.0.0-use.local
+  resolution: "NavDropMenu-ee29e7@workspace:components/NavDropMenu"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"NewAccount-8b3a5c@workspace:components/NewAccount":
+  version: 0.0.0-use.local
+  resolution: "NewAccount-8b3a5c@workspace:components/NewAccount"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"Notification-9fa398@workspace:components/Notification":
+  version: 0.0.0-use.local
+  resolution: "Notification-9fa398@workspace:components/Notification"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"OpenOrdersTable-febc5d@workspace:components/OpenOrdersTable":
+  version: 0.0.0-use.local
+  resolution: "OpenOrdersTable-febc5d@workspace:components/OpenOrdersTable"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"OrderSideTabs-d5fdea@workspace:components/OrderSideTabs":
+  version: 0.0.0-use.local
+  resolution: "OrderSideTabs-d5fdea@workspace:components/OrderSideTabs"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"Orderbook-e45f96@workspace:components/Orderbook":
+  version: 0.0.0-use.local
+  resolution: "Orderbook-e45f96@workspace:components/Orderbook"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"PageBodyContainer-f3e7f1@workspace:components/PageBodyContainer":
+  version: 0.0.0-use.local
+  resolution: "PageBodyContainer-f3e7f1@workspace:components/PageBodyContainer"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"PerpPositionsTable-b81068@workspace:components/PerpPositionsTable":
+  version: 0.0.0-use.local
+  resolution: "PerpPositionsTable-b81068@workspace:components/PerpPositionsTable"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"PerpSideBadge-2fa726@workspace:components/PerpSideBadge":
+  version: 0.0.0-use.local
+  resolution: "PerpSideBadge-2fa726@workspace:components/PerpSideBadge"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"PnlText-0810de@workspace:components/PnlText":
+  version: 0.0.0-use.local
+  resolution: "PnlText-0810de@workspace:components/PnlText"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"RecentMarketTrades-2e7470@workspace:components/RecentMarketTrades":
+  version: 0.0.0-use.local
+  resolution: "RecentMarketTrades-2e7470@workspace:components/RecentMarketTrades"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"ResetLayout-8e79fb@workspace:components/ResetLayout":
+  version: 0.0.0-use.local
+  resolution: "ResetLayout-8e79fb@workspace:components/ResetLayout"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "Select-8fd93b@workspace:components/Select":
   version: 0.0.0-use.local
   resolution: "Select-8fd93b@workspace:components/Select"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"SettingsModal-b6faaa@workspace:components/SettingsModal":
+  version: 0.0.0-use.local
+  resolution: "SettingsModal-b6faaa@workspace:components/SettingsModal"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"SideBadge-a00c7c@workspace:components/SideBadge":
+  version: 0.0.0-use.local
+  resolution: "SideBadge-a00c7c@workspace:components/SideBadge"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"SimpleTradeForm-db0c29@workspace:components/SimpleTradeForm":
+  version: 0.0.0-use.local
+  resolution: "SimpleTradeForm-db0c29@workspace:components/SimpleTradeForm"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"Slider-85f46f@workspace:components/Slider":
+  version: 0.0.0-use.local
+  resolution: "Slider-85f46f@workspace:components/Slider"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"StatsAssets-f24eda@workspace:components/StatsAssets":
+  version: 0.0.0-use.local
+  resolution: "StatsAssets-f24eda@workspace:components/StatsAssets"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"StatsPerps-2a13b4@workspace:components/StatsPerps":
+  version: 0.0.0-use.local
+  resolution: "StatsPerps-2a13b4@workspace:components/StatsPerps"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"StatsTotals-27efcd@workspace:components/StatsTotals":
+  version: 0.0.0-use.local
+  resolution: "StatsTotals-27efcd@workspace:components/StatsTotals"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"Swipeable-7462d5@workspace:components/Swipeable":
+  version: 0.0.0-use.local
+  resolution: "Swipeable-7462d5@workspace:components/Swipeable"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"SwipeableTabs-518031@workspace:components/SwipeableTabs":
+  version: 0.0.0-use.local
+  resolution: "SwipeableTabs-518031@workspace:components/SwipeableTabs"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"Switch-250088@workspace:components/Switch":
+  version: 0.0.0-use.local
+  resolution: "Switch-250088@workspace:components/Switch"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"TableElements-a5b102@workspace:components/TableElements":
+  version: 0.0.0-use.local
+  resolution: "TableElements-a5b102@workspace:components/TableElements"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"Tabs-2bbc25@workspace:components/Tabs":
+  version: 0.0.0-use.local
+  resolution: "Tabs-2bbc25@workspace:components/Tabs"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"ThemeSwitch-b37a0e@workspace:components/ThemeSwitch":
+  version: 0.0.0-use.local
+  resolution: "ThemeSwitch-b37a0e@workspace:components/ThemeSwitch"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"Tooltip-74f5d2@workspace:components/Tooltip":
+  version: 0.0.0-use.local
+  resolution: "Tooltip-74f5d2@workspace:components/Tooltip"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"TopBar-955477@workspace:components/TopBar":
+  version: 0.0.0-use.local
+  resolution: "TopBar-955477@workspace:components/TopBar"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"TradeForm-a03333@workspace:components/TradeForm":
+  version: 0.0.0-use.local
+  resolution: "TradeForm-a03333@workspace:components/TradeForm"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"TradeHistoryTable-ac34f9@workspace:components/TradeHistoryTable":
+  version: 0.0.0-use.local
+  resolution: "TradeHistoryTable-ac34f9@workspace:components/TradeHistoryTable"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"TradePageGrid-1cef2c@workspace:components/TradePageGrid":
+  version: 0.0.0-use.local
+  resolution: "TradePageGrid-1cef2c@workspace:components/TradePageGrid"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"TradeType-ee2b84@workspace:components/TradeType":
+  version: 0.0.0-use.local
+  resolution: "TradeType-ee2b84@workspace:components/TradeType"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"TradingView-e5e224@workspace:components/TradingView":
+  version: 0.0.0-use.local
+  resolution: "TradingView-e5e224@workspace:components/TradingView"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"TriggerType-926b4b@workspace:components/TriggerType":
+  version: 0.0.0-use.local
+  resolution: "TriggerType-926b4b@workspace:components/TriggerType"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"UiLock-f7a0a3@workspace:components/UiLock":
+  version: 0.0.0-use.local
+  resolution: "UiLock-f7a0a3@workspace:components/UiLock"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"UserInfo-82c342@workspace:components/UserInfo":
+  version: 0.0.0-use.local
+  resolution: "UserInfo-82c342@workspace:components/UserInfo"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"UserMarketInfo-a2d08c@workspace:components/UserMarketInfo":
+  version: 0.0.0-use.local
+  resolution: "UserMarketInfo-a2d08c@workspace:components/UserMarketInfo"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"WalletSelect-03c702@workspace:components/WalletSelect":
+  version: 0.0.0-use.local
+  resolution: "WalletSelect-03c702@workspace:components/WalletSelect"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"WithdrawModal-69c698@workspace:components/WithdrawModal":
+  version: 0.0.0-use.local
+  resolution: "WithdrawModal-69c698@workspace:components/WithdrawModal"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
@@ -3252,6 +4008,15 @@ __metadata:
   checksum: c0eb895911d05b6b2d245154f70461c5e42c107457972e5ebba38d48967870dee53bcdf6c7047990586daa80fab8dab3cc6300800fbd47b454247fdedd859a2c
   languageName: node
   linkType: hard
+
+"associated-8ec9e7@workspace:utils/associated":
+  version: 0.0.0-use.local
+  resolution: "associated-8ec9e7@workspace:utils/associated"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "ast-types@npm:0.13.2":
   version: 0.13.2
@@ -4005,6 +4770,24 @@ __metadata:
   checksum: b563e4b6039b15213114626621e7a3d12f31008bdce20f9c741d69987f62aeaace7ec30f6018890ad77b2e9b4d95324c9f5acfca58a9441e3b1dcdd1e2525d17
   languageName: node
   linkType: hard
+
+"chartDataConnector-a35d8c@workspace:utils/chartDataConnector":
+  version: 0.0.0-use.local
+  resolution: "chartDataConnector-a35d8c@workspace:utils/chartDataConnector"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"charting_library-0eac5f@workspace:components/charting_library":
+  version: 0.0.0-use.local
+  resolution: "charting_library-0eac5f@workspace:components/charting_library"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "chokidar@npm:3.5.1":
   version: 3.5.1
@@ -5971,6 +6754,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"formatters-148461@workspace:utils/formatters":
+  version: 0.0.0-use.local
+  resolution: "formatters-148461@workspace:utils/formatters"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "fraction.js@npm:^4.1.1":
   version: 4.1.1
   resolution: "fraction.js@npm:4.1.1"
@@ -6515,6 +7307,15 @@ __metadata:
   checksum: ac5e6c72053b2a25532f4137f4b036c9057a4b31980f41c7c2efe05e094d2e06b5c8adc0aafba5c6b70e204ab05d4a916233aec9dffc7a0ccfdd14d4b01c719b
   languageName: node
   linkType: hard
+
+"icons-6361b2@workspace:components/icons":
+  version: 0.0.0-use.local
+  resolution: "icons-6361b2@workspace:components/icons"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "iconv-lite@npm:0.4.24":
   version: 0.4.24
@@ -8358,6 +9159,15 @@ __metadata:
   checksum: 9a62ec2d9648c5329fdc4bc7d779a7305f32b1e55422a4f14244bc890bb43287fe013eb8d965e92a0cf4c443f3e59265b1fc3125eaedb0c2361e28b1a8de565d
   languageName: node
   linkType: hard
+
+"mango-e0e8f8@workspace:utils/mango":
+  version: 0.0.0-use.local
+  resolution: "mango-e0e8f8@workspace:utils/mango"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "map-cache@npm:^0.2.2":
   version: 0.2.2
@@ -12193,6 +13003,15 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
+"tokens-8b95a4@workspace:utils/tokens":
+  version: 0.0.0-use.local
+  resolution: "tokens-8b95a4@workspace:utils/tokens"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "toml@npm:^3.0.0":
   version: 3.0.0
   resolution: "toml@npm:3.0.0"
@@ -12566,6 +13385,51 @@ typescript@^4.1.3:
   languageName: node
   linkType: hard
 
+"useBalances-931e3e@workspace:hooks/useBalances":
+  version: 0.0.0-use.local
+  resolution: "useBalances-931e3e@workspace:hooks/useBalances"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"useFees-a40e14@workspace:hooks/useFees":
+  version: 0.0.0-use.local
+  resolution: "useFees-a40e14@workspace:hooks/useFees"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"useHydrateStore-4be44e@workspace:hooks/useHydrateStore":
+  version: 0.0.0-use.local
+  resolution: "useHydrateStore-4be44e@workspace:hooks/useHydrateStore"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"useInterval-3839e7@workspace:hooks/useInterval":
+  version: 0.0.0-use.local
+  resolution: "useInterval-3839e7@workspace:hooks/useInterval"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"useIpAddress-931197@workspace:hooks/useIpAddress":
+  version: 0.0.0-use.local
+  resolution: "useIpAddress-931197@workspace:hooks/useIpAddress"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "useLocalStorageState-aef525@workspace:hooks/useLocalStorageState":
   version: 0.0.0-use.local
   resolution: "useLocalStorageState-aef525@workspace:hooks/useLocalStorageState"
@@ -12575,9 +13439,126 @@ typescript@^4.1.3:
   languageName: unknown
   linkType: soft
 
+"useMangoGroupConfig-bf92df@workspace:hooks/useMangoGroupConfig":
+  version: 0.0.0-use.local
+  resolution: "useMangoGroupConfig-bf92df@workspace:hooks/useMangoGroupConfig"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"useMangoStats-378afe@workspace:hooks/useMangoStats":
+  version: 0.0.0-use.local
+  resolution: "useMangoStats-378afe@workspace:hooks/useMangoStats"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "useMangoStore-a74d72@workspace:stores/useMangoStore":
   version: 0.0.0-use.local
   resolution: "useMangoStore-a74d72@workspace:stores/useMangoStore"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"useMarkPrice-73f4a4@workspace:hooks/useMarkPrice":
+  version: 0.0.0-use.local
+  resolution: "useMarkPrice-73f4a4@workspace:hooks/useMarkPrice"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"useOpenOrders-490260@workspace:hooks/useOpenOrders":
+  version: 0.0.0-use.local
+  resolution: "useOpenOrders-490260@workspace:hooks/useOpenOrders"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"useOraclePrice-2cb79e@workspace:hooks/useOraclePrice":
+  version: 0.0.0-use.local
+  resolution: "useOraclePrice-2cb79e@workspace:hooks/useOraclePrice"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"useOrderbook-7855c0@workspace:hooks/useOrderbook":
+  version: 0.0.0-use.local
+  resolution: "useOrderbook-7855c0@workspace:hooks/useOrderbook"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"usePerpPositions-125d34@workspace:hooks/usePerpPositions":
+  version: 0.0.0-use.local
+  resolution: "usePerpPositions-125d34@workspace:hooks/usePerpPositions"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"usePrevious-c8bcf6@workspace:hooks/usePrevious":
+  version: 0.0.0-use.local
+  resolution: "usePrevious-c8bcf6@workspace:hooks/usePrevious"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"useSortableData-7753c2@workspace:hooks/useSortableData":
+  version: 0.0.0-use.local
+  resolution: "useSortableData-7753c2@workspace:hooks/useSortableData"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"useSrmAccount-ace93e@workspace:hooks/useSrmAccount":
+  version: 0.0.0-use.local
+  resolution: "useSrmAccount-ace93e@workspace:hooks/useSrmAccount"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"useTradeHistory-4365da@workspace:hooks/useTradeHistory":
+  version: 0.0.0-use.local
+  resolution: "useTradeHistory-4365da@workspace:hooks/useTradeHistory"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"useViewport-49615f@workspace:hooks/useViewport":
+  version: 0.0.0-use.local
+  resolution: "useViewport-49615f@workspace:hooks/useViewport"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"useWallet-3d1c44@workspace:hooks/useWallet":
+  version: 0.0.0-use.local
+  resolution: "useWallet-3d1c44@workspace:hooks/useWallet"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
@@ -12724,6 +13705,15 @@ typescript@^4.1.3:
   checksum: 4038fcf92f6ab0288267ad05008aec9e089a759f1bd32e1ea45cc2eb498eb12095ec43cf8ca2bf23a465f4580a0d33b25b89f450ba521dd27083cbc695ee6bf5
   languageName: node
   linkType: hard
+
+"wallet-adapters-5d8723@workspace:utils/wallet-adapters":
+  version: 0.0.0-use.local
+  resolution: "wallet-adapters-5d8723@workspace:utils/wallet-adapters"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "warning@npm:^4.0.1":
   version: 4.0.3

@@ -1,0 +1,9 @@
+{
+    "name": "bit-mango",
+    "remotes": {},
+    "version": "1.0.160",
+    "lanes": {
+        "current": "main",
+        "tracking": []
+    }
+}

@@ -102,6 +102,13 @@ export interface Orderbook {
   asks: number[][]
 }
 
+export const TRIGGER_ORDER_TYPES = [
+  'Stop Loss',
+  'Take Profit',
+  'Stop Limit',
+  'Take Profit Limit',
+]
+
 interface MangoStore extends State {
   notifications: Array<{
     type: string
