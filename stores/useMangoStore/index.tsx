@@ -25,7 +25,6 @@ import { AccountInfo, Commitment, Connection, PublicKey } from '@solana/web3.js'
 import { EndpointInfo, WalletAdapter } from '~/@types/types'
 import { isDefined, zipDict } from '~/utils/formatters'
 import { notify } from '~/utils/notifications'
-import { LAST_ACCOUNT_KEY } from '~/components/AccountsModal'
 import {
   DEFAULT_MARKET_KEY,
   initialMarket,
@@ -108,6 +107,8 @@ export const TRIGGER_ORDER_TYPES = [
   'Stop Limit',
   'Take Profit Limit',
 ]
+
+export const LAST_ACCOUNT_KEY = 'lastAccountViewed-3.0'
 
 interface MangoStore extends State {
   notifications: Array<{

@@ -6,13 +6,7 @@
     "defaultDirectory": "{scope}/{name}",
     "defaultScope": "m4tt4ew.soce",
     "resolveModules": {
-      "modulesDirectories": [
-        "components",
-        "utils",
-        "stores",
-        "hooks",
-        "."
-      ],
+      "modulesDirectories": ["components", "utils", "stores", "hooks", "."],
       "aliases": {
         "~": "."
       }

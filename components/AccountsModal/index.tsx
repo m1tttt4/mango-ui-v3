@@ -2,7 +2,7 @@ import React, { FunctionComponent, useEffect, useState } from 'react'
 import { RadioGroup } from '@headlessui/react'
 import { CheckCircleIcon } from '@heroicons/react/solid'
 import { PlusCircleIcon } from '@heroicons/react/outline'
-import useMangoStore from '~/stores/useMangoStore'
+import useMangoStore, { LAST_ACCOUNT_KEY } from '~/stores/useMangoStore'
 import {
   MangoAccount,
   MangoCache,
@@ -15,8 +15,6 @@ import Modal from '~/components/Modal'
 import { ElementTitle } from '~/components/styles'
 import Button, { LinkButton } from '~/components/Button'
 import NewAccount from '~/components/NewAccount'
-
-export const LAST_ACCOUNT_KEY = 'lastAccountViewed-3.0'
 
 interface AccountsModalProps {
   onClose: () => void
