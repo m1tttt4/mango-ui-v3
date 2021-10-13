@@ -13,6 +13,13 @@
     "test": "jest",
     "test-all": "yarn lint && yarn type-check && yarn test"
   },
+  "bit": {
+    "resolveModules": {
+      "aliases": {
+          "~": "."
+      }
+    }
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",

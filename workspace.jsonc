@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
+  "teambit.workspace/workspace": {
+    "name": "mango-ui-v3-workspace",
+    "icon": "https://static.bit.dev/bit-logo.svg",
+    "defaultDirectory": "{scope}/{name}",
+    "defaultScope": "m4tt4ew.soce",
+    "resolveModules": {
+      "aliases": {
+        "~": "."
+      }
+    }
+  },
+  "teambit.dependencies/dependency-resolver": {
+    "packageManager": "teambit.dependencies/yarn",
+    "policy": {
+      "dependencies": {},
+      "peerDependencies": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+      }
+    }
+  },
+  "teambit.workspace/variants": {
+    "*": {
+      "teambit.react/react": {}
+    }
+  }
+}
