@@ -19,9 +19,9 @@ import Loading from '~/components/Loading'
 import { ElementTitle } from '~/components/styles'
 import ButtonGroup from '~/components/ButtonGroup'
 import Checkbox from '~/components/Checkbox'
-import OrderSideTabs from '~/components/trade_form/OrderSideTabs'
+import OrderSideTabs from '~/components/OrderSideTabs'
 import Tooltip from '~/components/Tooltip'
-import EstPriceImpact from '~/components/trade_form/EstPriceImpact'
+import EstPriceImpact from '~/components/EstPriceImpact'
 
 export default function SimpleTradeForm({ initLeverage }) {
   const set = useMangoStore((s) => s.set)
